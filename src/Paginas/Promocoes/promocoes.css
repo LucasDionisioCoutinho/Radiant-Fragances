@@ -1,0 +1,571 @@
+* {
+  box-sizing: border-box;
+}
+.promo-page {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BANNER */
+.promo-banner {
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.promo-banner h2 {
+  color: #d4af37;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.promo-banner h1 {
+  font-size: 48px;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.promo-banner p {
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* TIMER */
+.promo-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.timer-bloco {
+  background: #111;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  padding: 12px 20px;
+  min-width: 70px;
+  text-align: center;
+}
+
+.timer-bloco span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #d4af37;
+  display: block;
+}
+
+.timer-bloco small {
+  font-size: 11px;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timer-separador {
+  font-size: 28px;
+  color: #d4af37;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* LAYOUT */
+.promo-layout {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: flex-start;
+}
+
+/* GRID */
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  flex: 1;
+}
+
+/* CARD */
+.promo-card {
+  background: #0c0c0c;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: border-color 0.3s;
+}
+
+.promo-card:hover {
+  border-color: #d4af37;
+}
+
+.promo-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.promo-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #d4af37;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.promo-card-info {
+  padding: 16px;
+}
+
+.promo-marca {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.promo-card-info h3 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.promo-precos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.preco-original {
+  font-size: 13px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.preco-final {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.btn-add-promo {
+  width: 100%;
+  padding: 10px;
+  background: #d4af37;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-add-promo:hover {
+  background: #f1c40f;
+}
+
+.promo-qtd-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.promo-qtd-control button {
+  background: #1a1a1a;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.promo-qtd-control button:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+.promo-qtd-control span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  min-width: 24px;
+  text-align: center;
+}
+
+/* MINI CARRINHO */
+.promo-carrinho {
+  width: 320px;
+  background: #0c0c0c;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 24px;
+  position: sticky;
+  top: 100px;
+}
+
+.promo-carrinho h3 {
+  font-size: 18px;
+  color: #d4af37;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 12px;
+}
+
+.promo-carrinho-vazio {
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.promo-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.promo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.promo-item img {
+  border-radius: 6px;
+  object-fit: cover;
+  height: 50px;
+}
+
+.promo-item-info {
+  flex: 1;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.promo-item-info p:last-child {
+  color: #d4af37;
+}
+
+.promo-remover {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.promo-remover:hover {
+  color: #e74c3c;
+}
+
+/* CUPOM */
+.promo-cupom {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.promo-cupom input {
+  flex: 1;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+.promo-cupom input:focus {
+  border-color: #d4af37;
+}
+
+.promo-cupom button {
+  background: #1a1a1a;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.promo-cupom button:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+.cupom-ok {
+  font-size: 13px;
+  color: #2ecc71;
+  margin-bottom: 12px;
+}
+
+.cupom-erro {
+  font-size: 13px;
+  color: #e74c3c;
+  margin-bottom: 12px;
+}
+
+/* TOTAIS */
+.promo-totais {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 14px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.promo-linha {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.promo-linha.desconto {
+  color: #2ecc71;
+}
+
+.promo-linha.total {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-finalizar-promo {
+  width: 100%;
+  padding: 14px;
+  background: #d4af37;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-finalizar-promo:hover {
+  background: #f1c40f;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .promo-layout {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .promo-carrinho {
+    width: 100%;
+    position: static;
+  }
+
+  .promo-banner h1 {
+    font-size: 32px;
+  }
+}
+
+/* =========================
+   TABLETS
+========================= */
+@media (max-width: 1024px) {
+  .promo-layout {
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .promo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .promo-banner h1 {
+    font-size: 40px;
+  }
+
+  .promo-banner p {
+    font-size: 15px;
+  }
+}
+
+/* =========================
+   CELULARES
+========================= */
+@media (max-width: 768px) {
+  .promo-page {
+    overflow-x: hidden;
+  }
+
+  .promo-banner {
+    padding: 40px 16px 30px;
+  }
+
+  .promo-banner h2 {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+  .promo-banner h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .promo-banner p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* TIMER */
+  .promo-timer {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .timer-bloco {
+    min-width: 60px;
+    padding: 10px 14px;
+  }
+
+  .timer-bloco span {
+    font-size: 24px;
+  }
+
+  .timer-separador {
+    display: none;
+  }
+
+  /* LAYOUT */
+  .promo-layout {
+    flex-direction: column;
+    padding: 16px;
+    gap: 24px;
+  }
+
+  /* GRID */
+  .promo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  /* CARD */
+  .promo-card img {
+    height: 180px;
+  }
+
+  .promo-card-info {
+    padding: 12px;
+  }
+
+  .promo-card-info h3 {
+    font-size: 13px;
+  }
+
+  .preco-final {
+    font-size: 16px;
+  }
+
+  /* BOTÕES */
+  .btn-add-promo {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .promo-qtd-control {
+    gap: 12px;
+  }
+
+  /* CARRINHO */
+  .promo-carrinho {
+    width: 100%;
+    padding: 18px;
+    position: static;
+  }
+
+  .promo-item {
+    align-items: flex-start;
+  }
+
+  .promo-item img {
+    width: 50px;
+  }
+
+  .promo-cupom {
+    flex-direction: column;
+  }
+
+  .promo-cupom button {
+    width: 100%;
+  }
+
+  .btn-finalizar-promo {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+/* =========================
+RESPONSIVIDADE
+========================= */
+
+@media (max-width: 768px) {
+
+  .promo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .promo-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: #fff;
+    padding: 10px;
+  }
+
+  .promo-card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 480px) {
+
+  .promo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .promo-card img {
+    height: 240px;
+    object-fit: contain;
+    background: #fff;
+    padding: 12px;
+  }
+}

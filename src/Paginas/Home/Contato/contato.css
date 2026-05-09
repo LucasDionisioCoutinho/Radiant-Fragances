@@ -1,0 +1,155 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.993);
+  color: var(--CorLogo);
+  height: 430px;
+
+  background-image: linear-gradient(
+    120deg,
+    transparent 46%,
+    rgba(212, 175, 55, 0.06) 49%,
+    rgba(212, 175, 55, 0.09) 50%,
+    rgba(212, 175, 55, 0.06) 51%,
+    transparent 54%
+  );
+
+  background-size: 300% 100%;
+  background-position: 100% 50%;
+
+  animation: reflexo-dourado 2s linear infinite;
+}
+
+.contato > * {
+  position: relative;
+  z-index: 1;
+}
+@keyframes reflexo-dourado {
+  from {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0% 50%;
+  }
+}
+
+.h2-contato {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 16px;
+  font-size: 14px;
+}
+.h1-contato {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 32px;
+  font-size: 48px;
+}
+.p-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--CorTextos);
+  font-size: 18px;
+  padding: 10px;
+  margin: -10px 0px 30px;
+}
+.container-input-contato {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+.input-contato {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  height: 52px;
+
+  border: 0.5px solid var(--CorLogo);
+  box-sizing: border-box;
+
+  color: var(--CorLogo);
+  padding-left: 15px;
+  font-family: var(--FonteTextos);
+  background-color: transparent;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-contato::placeholder {
+  color: #888;
+}
+
+.input-contato:focus,
+.input-contato:focus-visible {
+  outline: none;
+  border-color: var(--CorLogo);
+  box-shadow: 0 0 6px rgba(212, 175, 55, 0.4);
+}
+.btn-contato {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(90deg, #d4af37d0, #f5d76e);
+  color: black;
+  font-family: var(--FonteTextos);
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: opacity 300ms ease;
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+  appearance: none;
+}
+.btn-contato:hover {
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .contato {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .h1-contato {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .h2-contato {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .p-contato {
+    font-size: 16px;
+    margin: 0 0 30px;
+    max-width: 500px;
+    margin-inline: auto;
+  }
+
+  .container-input-contato {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .input-contato {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .btn-contato {
+    width: 100%;
+    max-width: 300px;
+  }
+}

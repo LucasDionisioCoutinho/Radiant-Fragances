@@ -1,0 +1,228 @@
+.secaoPrincipal {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  overflow: hidden;
+}
+.imgfundo {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  background-image: url("../Imagens/imgfundo.jpg");
+  background-size: cover;
+  background-position: center top;
+  z-index: -1;
+}
+.imgfundo::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.95),
+    rgba(0, 0, 0, 0.6),
+    transparent
+  );
+  pointer-events: none;
+  z-index: 2;
+}
+.imgfundo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.6) 55%,
+    rgba(0, 0, 0, 0.9) 75%,
+    var(--CorFundo) 100%
+  );
+}
+
+/*TEXTOS EM CIMA DA IMAGEM PRINCIPAL*/
+.p-principal {
+  color: var(--CorLogo);
+  font-size: 18px;
+  font-family: var(--FonteTextos);
+  margin: 0px 0px 24px;
+  transform: translateY(5px);
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+.h1-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: var(--FonteTextos);
+  font-size: 96px;
+  line-height: 1;
+
+  background: linear-gradient(135deg, #d9bf8c, #c93, #d9bf8c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+  transform: translateY(5px);
+}
+.h1-titulo span {
+  background: none;
+  -webkit-text-fill-color: #ebe7e0;
+  color: #ebe7e0;
+
+  font-size: 96px;
+  margin-top: -10px;
+  font-style: italic;
+  letter-spacing: 4px;
+  transform: translateY(-3px);
+}
+.p-texto {
+  font-size: 24px;
+  margin: 0 224px 40px;
+  font-family: var(--FonteTextos);
+  color: var(--CorTextos);
+  text-align: center;
+  transform: translateY(-1px);
+}
+.p-texto span {
+  display: block;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+/* BOTOES EM CIMA DA IMAGEM PRINCIPAL */
+.btn-explorar {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(90deg, #d4af37d0, #f5d76e);
+  color: black;
+  font-family: var(--FonteTextos);
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: opacity 300ms ease;
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+  appearance: none;
+}
+.btn-explorar:hover {
+  opacity: 0.9;
+}
+.btn-decants {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--CorLogo);
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-decants:hover {
+  background-color: #d4af371a;
+}
+
+/* =========================
+   TABLETS
+========================= */
+@media (max-width: 1024px) {
+  .h1-titulo {
+    font-size: 72px;
+  }
+
+  .h1-titulo span {
+    font-size: 72px;
+  }
+
+  .p-texto {
+    margin: 0 100px 32px;
+    font-size: 20px;
+  }
+}
+
+/* =========================
+   CELULARES
+========================= */
+@media (max-width: 768px) {
+  .secaoPrincipal {
+    padding: 120px 20px 80px;
+    text-align: center;
+  }
+
+  .p-principal {
+    font-size: 14px;
+    letter-spacing: 0.25em;
+    margin-bottom: 16px;
+  }
+
+  .h1-titulo {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+
+  .h1-titulo span {
+    font-size: 48px;
+    margin-top: 0;
+    letter-spacing: 2px;
+  }
+
+  .p-texto {
+    margin: 20px 0 32px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .btn-explorar,
+  .btn-decants {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 20px;
+    font-size: 13px;
+  }
+
+  .imgfundo {
+    background-position: center;
+  }
+}
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+@media (max-width: 480px) {
+  .h1-titulo {
+    font-size: 36px;
+  }
+
+  .h1-titulo span {
+    font-size: 36px;
+  }
+
+  .p-texto {
+    font-size: 16px;
+  }
+
+  .p-principal {
+    font-size: 12px;
+  }
+
+  .btn-explorar,
+  .btn-decants {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+  }
+}

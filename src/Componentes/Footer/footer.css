@@ -1,0 +1,151 @@
+.footer {
+  background-color: var(--CorFundo);
+  padding: 80px clamp(20px, 6vw, 120px);
+  border-top: 1px solid var(--CorLogo);
+  border-bottom: 1px solid var(--CorLogo);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  color: #d4af37;
+  font-family: var(--FonteTitulo);
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 22px;
+}
+
+.footer-col p,
+.footer-col li {
+  color: var(--CorTextos);
+  font-family: var(--FonteTextos);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-col li:hover {
+  color: #d4af37;
+}
+.footer a {
+  text-decoration: none;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--CorFundo);
+  font-family: var(--FonteTextos);
+  height: 100px;
+  color: var(--CorTextos);
+}
+
+
+/* =========================
+   TABLETS
+========================= */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 60px 50px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}
+
+/* =========================
+   CELULARES
+========================= */
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 24px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .footer-col h3,
+  .footer-col h4 {
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-col p,
+  .footer-col li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .footer-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .copy {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 18px;
+  }
+
+  .footer-container {
+    gap: 32px;
+  }
+
+  .footer-col h3,
+  .footer-col h4 {
+    font-size: 16px;
+    letter-spacing: 0.15em;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+  }
+
+  .footer-col p,
+  .footer-col li {
+    font-size: 13px;
+  }
+
+  .copy {
+    font-size: 12px;
+  }
+}

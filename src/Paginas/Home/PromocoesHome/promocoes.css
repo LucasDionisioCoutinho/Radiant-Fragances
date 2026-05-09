@@ -1,0 +1,151 @@
+
+.titulo-destaque {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.993);
+}
+.section-span {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.993);
+}
+.p-destaque {
+  display: block;
+  font-family: var(--FonteTextos);
+  color: var(--CorLogo);
+  text-align: center;
+  margin-top: 1.2rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-size: 14px;
+   background-color: rgba(0, 0, 0, 0.993);
+}
+.h1-destaque {
+  font-family: var(--FonteTextos);
+  color: var(--CorLogo);
+  text-align: center;
+  font-size: 48px;
+   background-color: rgba(0, 0, 0, 0.993);
+}
+/* PERFUMES DESTAQUES */
+
+.perfumes-destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 80px 120px;
+  background-color: rgba(0, 0, 0, 0.993);
+}
+
+.card-perfume {
+  text-align: center;
+}
+
+.perfume-img img {
+  max-width: 300px;
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+.perfume-img img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px var(--CorTextos);
+}
+
+.perfume-marca {
+  margin-top: 16px;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  text-transform: uppercase;
+  font-family: var(--FonteTextos);
+}
+
+.perfume-nome {
+  margin-top: 8px;
+  font-size: 18px;
+  color: var(--CorTextos);
+  font-family: var(--FonteTextos);
+}
+
+.perfume-preco {
+  font-size: 20px;
+  display: block;
+  margin-top: 6px;
+  color: #d4af37;
+  font-family: var(--FonteTextos);
+}
+.btn-perfumes-destaques {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.993);
+  justify-content: center;
+  align-items: center;
+}
+.btn-perfumes {
+  display: inline-block;
+  width: auto;
+  max-width: 90%;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--CorLogo);
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  font-size: 1.03rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+  background-color: transparent;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+}
+.btn-perfumes:hover {
+  background-color: #d4af371a;
+}
+.badge-desconto {
+  display: inline-block;
+  background: #d4af37;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+
+.perfume-precos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.perfume-preco-original {
+  font-size: 13px;
+  color: #666;
+  text-decoration: line-through;
+}
+@media (max-width: 1024px) {
+  .perfumes-destaques {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .perfumes-destaques {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .h1-destaque {
+    font-size: 32px;
+  }
+
+  .p-destaque {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+  }
+}

@@ -1,0 +1,287 @@
+.container-catalago {
+  display: flex;
+  background-color: var(--CorFundo);
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* TITULOS */
+
+.h2-catalago {
+  font-size: 30px;
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.h1-catalago {
+  font-size: 50px;
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+}
+
+/* INPUT */
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input-catalago {
+  width: 100%;
+  padding: 20px 20px 20px 60px;
+  letter-spacing: 0.12em;
+  margin: 24px auto;
+
+  border: 0.5px solid var(--CorLogo);
+  box-sizing: border-box;
+
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  background-color: transparent;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-catalago::placeholder {
+  color: #888;
+  font-size: 20px;
+}
+
+.input-catalago:focus,
+.input-catalago:focus-visible {
+  outline: none;
+  border-color: var(--CorLogo);
+  box-shadow: 0 0 6px rgba(212, 175, 55, 0.4);
+}
+
+.icone-busca {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-wrapper:focus-within .icone-busca {
+  color: var(--CorLogo);
+}
+
+/* BOTÕES */
+
+.divs-btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.btn-todos,
+.btn-maisvendido,
+.btn-lancamentos,
+.btn-buscar {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--CorLogo);
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  font-size: 1.03rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-buscar {
+  width: auto;
+  min-width: 140px;
+}
+
+.btn-todos:hover,
+.btn-maisvendido:hover,
+.btn-lancamentos:hover,
+.btn-buscar:hover {
+  background-color: #d4af371a;
+}
+
+/* GRID */
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  padding: 80px 120px;
+  background-color: var(--CorFundo);
+}
+
+/* CARD */
+
+.card-catalogo {
+  text-align: center;
+  font-family: var(--FonteTextos);
+  background-color: var(--CorFundo);
+}
+
+.img-catalago {
+  width: 100%;
+  height: 250px;
+  display: block;
+  cursor: pointer;
+  object-fit: contain;
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.img-catalago:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px var(--CorTextos);
+}
+
+.marca {
+  margin-top: 16px;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  color: var(--CorTextos);
+  text-transform: uppercase;
+}
+
+.h3-catalago {
+  margin-top: 6px;
+  font-size: 18px;
+  color: var(--CorTextos);
+}
+
+.preco {
+  display: block;
+  margin: 8px 0 16px;
+  font-size: 20px;
+  color: #d4af37;
+}
+
+/* ========================= */
+/* RESPONSIVIDADE */
+/* ========================= */
+
+@media (max-width: 1024px) {
+
+  .catalogo-grid {
+    padding: 60px 50px;
+    gap: 30px;
+  }
+
+  .h1-catalago {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .h1-catalago {
+    font-size: 34px;
+  }
+
+  .h2-catalago {
+    font-size: 24px;
+  }
+
+  .input-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-buscar {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .catalogo-grid {
+    padding: 40px 20px;
+    gap: 25px;
+  }
+
+  .img-catalago {
+    height: 220px;
+  }
+
+  .btn-todos,
+  .btn-maisvendido,
+  .btn-lancamentos {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .container-catalago {
+    padding: 15px;
+  }
+
+  .h1-catalago {
+    font-size: 28px;
+  }
+
+  .h2-catalago {
+    font-size: 20px;
+  }
+
+  .input-catalago {
+    padding: 16px 16px 16px 50px;
+    font-size: 14px;
+  }
+
+  .input-catalago::placeholder {
+    font-size: 14px;
+  }
+
+  .catalogo-grid {
+    grid-template-columns: 1fr;
+    padding: 30px 15px;
+  }
+
+  .img-catalago {
+    height: 200px;
+  }
+
+  .marca {
+    font-size: 12px;
+  }
+
+  .h3-catalago {
+    font-size: 16px;
+  }
+
+  .preco {
+    font-size: 18px;
+  }
+
+  .btn-todos,
+  .btn-maisvendido,
+  .btn-lancamentos,
+  .btn-buscar {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 14px;
+  }
+}

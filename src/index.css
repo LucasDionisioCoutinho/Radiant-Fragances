@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:wght@100..900&display=swap');
+
+
+
+
+:root {
+    --FonteTextos: "Playfair", sans-serif;
+    --FonteTitulo: "Montserrat", sans-serif;
+    --CorFundo: #0a0a0aec;
+    --CorLogo: #D4AF37;
+    --CorTextos:#989081;
+}
+
+body {
+    background-color: black;
+}

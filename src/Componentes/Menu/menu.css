@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.menu {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 70px;
+  background-color: var(--CorFundo);
+  border-bottom: 2px solid var(--CorLogo);
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  font-size: 24px;
+  color: var(--CorLogo);
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* MENU */
+.menu-lista {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: var(--CorTextos);
+  position: relative;
+}
+
+/* efeito underline */
+.menu-item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--CorLogo);
+  transition: 0.3s;
+}
+
+.menu-item a:hover::after {
+  width: 100%;
+}
+
+/* DIREITA */
+.direita {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* CARRINHO */
+.carrinhoCompras {
+  position: relative;
+  font-size: 22px;
+  color: var(--CorTextos);
+}
+
+.contadorCarrinho {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+/* BOTÃO MOBILE */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: var(--CorTextos);
+  cursor: pointer;
+}
+
+/* 📱 RESPONSIVO */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-lista {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--CorFundo);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .menu-lista.ativo {
+    display: flex;
+  }
+}

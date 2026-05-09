@@ -1,0 +1,132 @@
+main {
+  background-color: var(--CorFundo);
+}
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  color: var(--CorLogo);
+  font-family: var(--FonteTitulo);
+  font-size: 1.6rem;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+}
+h1 {
+  color: var(--CorLogo);
+  font-family: var(--FonteTitulo);
+}
+.container-perguntas {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  border: 1px solid var(--CorLogo);
+  width: 500px;
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+.p-pergunta {
+  display: flex;
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  align-items: center;
+}
+.p-resposta {
+  color: var(--CorTextos);
+  font-family: var(--FonteTextos);
+  padding: 10px;
+}
+.p-resposta {
+  display: none;
+}
+
+.p-resposta.ativo {
+  display: block;
+}
+
+/* =========================
+   TABLETS
+========================= */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+/* =========================
+   CELULARES
+========================= */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px 40px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 16px 0;
+    line-height: 1.5;
+  }
+
+  .container-perguntas {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+  }
+
+  .p-pergunta {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .p-resposta {
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 12px 0 0;
+    text-align: left;
+  }
+}
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .container-perguntas {
+    padding: 14px;
+  }
+
+  .p-pergunta {
+    font-size: 14px;
+  }
+
+  .p-resposta {
+    font-size: 13px;
+  }
+}
