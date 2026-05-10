@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./Componentes/Footer/footer.jsx";
 import Menu from "./Componentes/Menu/menu.jsx";
 import BannerPromo from "./Componentes/BannerPromo/BannerPromo.jsx";
-
+import ScrollToTop from "./Componentes/ScrollToTop/ScrollToTop.jsx";
 import Home from "./Paginas/Home/hero.jsx";
 import Contato from "./Paginas/Home/Contato/contato.jsx";
 import NossaHistoria from "./Paginas/Home/NossaHistoria/nossahistoria.jsx";
@@ -42,7 +42,9 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
       <BannerPromo modo="faixa" />
+      
 
       <Menu
         totalItens={carrinho.length}
