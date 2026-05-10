@@ -14,6 +14,7 @@ function Promocoes() {
   const [cupom, setCupom] = useState("");
   const [cupomAplicado, setCupomAplicado] = useState(null);
   const [erroCupom, setErroCupom] = useState("");
+  const [carrinhoMobileAberto, setCarrinhoMobileAberto] = useState(false);
 
   const [segundos, setSegundos] = useState(() => {
     if (bannerData.ativo) return 0;
@@ -90,6 +91,7 @@ function Promocoes() {
   );
   const descontoCupom = cupomAplicado ? subtotal * (cupomAplicado.desconto / 100) : 0;
   const total = subtotal - descontoCupom;
+  const totalItens = carrinhoPromo.reduce((acc, i) => acc + i.quantidade, 0);
 
   function finalizarPedido() {
     if (carrinhoPromo.length === 0) return;
@@ -117,6 +119,75 @@ function Promocoes() {
     );
   }
 
+  const conteudoCarrinho = (
+    <>
+      {carrinhoPromo.length === 0 ? (
+        <p className="promo-carrinho-vazio">Nenhum item selecionado.</p>
+      ) : (
+        <>
+          <ul className="promo-lista">
+            {carrinhoPromo.map((item) => (
+              <li key={item.id} className="promo-item">
+                <img src={item.imagem} alt={item.nome} width="50" />
+                <div className="promo-item-info">
+                  <p>{item.nome}</p>
+                  <p>
+                    {item.quantidade}x — R${" "}
+                    {(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)}
+                  </p>
+                </div>
+                <button
+                  className="promo-remover"
+                  onClick={() => removerPromo(item.id)}
+                >
+                  ✕
+                </button>
+              </li>
+            ))}
+          </ul>
+
+          <div className="promo-cupom">
+            <input
+              type="text"
+              placeholder="Cupom de desconto"
+              value={cupom}
+              onChange={(e) => setCupom(e.target.value)}
+            />
+            <button onClick={aplicarCupom}>Aplicar</button>
+          </div>
+
+          {cupomAplicado && (
+            <p className="cupom-ok">
+              ✓ {cupomAplicado.codigo} — {cupomAplicado.desconto}% off
+            </p>
+          )}
+          {erroCupom && <p className="cupom-erro">{erroCupom}</p>}
+
+          <div className="promo-totais">
+            <div className="promo-linha">
+              <span>Subtotal</span>
+              <span>R$ {subtotal.toFixed(2)}</span>
+            </div>
+            {cupomAplicado && (
+              <div className="promo-linha desconto">
+                <span>Desconto cupom</span>
+                <span>- R$ {descontoCupom.toFixed(2)}</span>
+              </div>
+            )}
+            <div className="promo-linha total">
+              <span>Total</span>
+              <span>R$ {total.toFixed(2)}</span>
+            </div>
+          </div>
+
+          <button className="btn-finalizar-promo" onClick={finalizarPedido}>
+            Finalizar no WhatsApp
+          </button>
+        </>
+      )}
+    </>
+  );
+
   return (
     <main className="promo-page">
 
@@ -127,7 +198,6 @@ function Promocoes() {
           <h2>Ofertas Especiais</h2>
           <h1>Promoções Exclusivas</h1>
           <p>Aproveite antes que acabe!</p>
-
           <div className="promo-timer">
             <div className="timer-bloco">
               <span>{String(d).padStart(2, "0")}</span>
@@ -162,13 +232,10 @@ function Promocoes() {
             return (
               <div className="promo-card" key={produto.id}>
                 <div className="promo-badge">{produto.desconto}% OFF</div>
-
                 <img src={produto.imagem} alt={produto.nome} />
-
                 <div className="promo-card-info">
                   <p className="promo-marca">{produto.marca}</p>
                   <h3>{produto.nome}</h3>
-
                   <div className="promo-precos">
                     {produto.precoOriginal && (
                       <span className="preco-original">
@@ -179,7 +246,6 @@ function Promocoes() {
                       R$ {precoFinal.toFixed(2)}
                     </span>
                   </div>
-
                   {noCarrinho ? (
                     <div className="promo-qtd-control">
                       <button onClick={() => alterarQuantidade(produto.id, -1)}>−</button>
@@ -200,75 +266,40 @@ function Promocoes() {
           })}
         </section>
 
-        <aside className="promo-carrinho">
-          <h3>Seu Pedido</h3>
-
-          {carrinhoPromo.length === 0 ? (
-            <p className="promo-carrinho-vazio">Nenhum item selecionado.</p>
-          ) : (
-            <>
-              <ul className="promo-lista">
-                {carrinhoPromo.map((item) => (
-                  <li key={item.id} className="promo-item">
-                    <img src={item.imagem} alt={item.nome} width="50" />
-                    <div className="promo-item-info">
-                      <p>{item.nome}</p>
-                      <p>
-                        {item.quantidade}x — R${" "}
-                        {(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)}
-                      </p>
-                    </div>
-                    <button
-                      className="promo-remover"
-                      onClick={() => removerPromo(item.id)}
-                    >
-                      ✕
-                    </button>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="promo-cupom">
-                <input
-                  type="text"
-                  placeholder="Cupom de desconto"
-                  value={cupom}
-                  onChange={(e) => setCupom(e.target.value)}
-                />
-                <button onClick={aplicarCupom}>Aplicar</button>
-              </div>
-
-              {cupomAplicado && (
-                <p className="cupom-ok">
-                  ✓ {cupomAplicado.codigo} — {cupomAplicado.desconto}% off
-                </p>
-              )}
-              {erroCupom && <p className="cupom-erro">{erroCupom}</p>}
-
-              <div className="promo-totais">
-                <div className="promo-linha">
-                  <span>Subtotal</span>
-                  <span>R$ {subtotal.toFixed(2)}</span>
-                </div>
-                {cupomAplicado && (
-                  <div className="promo-linha desconto">
-                    <span>Desconto cupom</span>
-                    <span>- R$ {descontoCupom.toFixed(2)}</span>
-                  </div>
-                )}
-                <div className="promo-linha total">
-                  <span>Total</span>
-                  <span>R$ {total.toFixed(2)}</span>
-                </div>
-              </div>
-
-              <button className="btn-finalizar-promo" onClick={finalizarPedido}>
-                Finalizar no WhatsApp
-              </button>
-            </>
-          )}
+        {/* CARRINHO PC */}
+        <aside className={`promo-carrinho ${carrinhoMobileAberto ? "mobile-aberto" : ""}`}>
+          <div className="promo-carrinho-header">
+            <h3>Seu Pedido</h3>
+            <button
+              className="promo-carrinho-fechar"
+              onClick={() => setCarrinhoMobileAberto(false)}
+            >
+              ✕
+            </button>
+          </div>
+          {conteudoCarrinho}
         </aside>
       </div>
+
+      {/* BOTÃO FLUTUANTE MOBILE */}
+      {carrinhoPromo.length > 0 && (
+        <button
+          className="promo-carrinho-fab"
+          onClick={() => setCarrinhoMobileAberto(true)}
+        >
+          <span>🛒 Ver pedido ({totalItens})</span>
+          <span className="fab-total">R$ {total.toFixed(2)}</span>
+        </button>
+      )}
+
+      {/* OVERLAY MOBILE */}
+      {carrinhoMobileAberto && (
+        <div
+          className="promo-carrinho-overlay"
+          onClick={() => setCarrinhoMobileAberto(false)}
+        />
+      )}
+
     </main>
   );
 }

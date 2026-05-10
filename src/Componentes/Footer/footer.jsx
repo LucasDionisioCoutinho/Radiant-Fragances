@@ -8,7 +8,6 @@ function Footer() {
         <div className="footer-container">
           <div className="footer-col">
             <h3 className="footer-logo">RADIANT</h3>
-
             <p>
               Perfumes importados, nacionais e decants.
               <br />
@@ -18,35 +17,36 @@ function Footer() {
 
           <div className="footer-col">
             <h4>NAVEGAÇÃO</h4>
-
             <ul>
-              <li>Catálogo</li>
-
-              <li>Promoções</li>
-
-              <li>Lançamentos</li>
-              <li>Mais Vendidos</li>
+              <li><Link to="/catalogo">Catálogo</Link></li>
+              <li><Link to="/promocoes">Promoções</Link></li>
+              <li><Link to="/catalogo">Lançamentos</Link></li>
+              <li><Link to="/catalogo">Mais Vendidos</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h4>INSTITUCIONAL</h4>
-
             <ul>
-              <li>Sobre</li>
-              <Link to="/faq">
-                <li>FAQ</li>
-              </Link>
-              <li>Políticas</li>
+              <li><Link to="/sobre">Sobre</Link></li>
+              <li><Link to="/faq">FAQ</Link></li>
+              <li><Link to="/faq">Políticas</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h4>CONTATO</h4>
-
             <ul>
-              <li>fragancesradiant@gmail.com</li>
-              <li>WhatsApp: (11) 916776355</li>
+              <li>
+                <a href="mailto:fragancesradiant@gmail.com">
+                  fragancesradiant@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/5511916776355" target="_blank" rel="noreferrer">
+                  WhatsApp: (11) 916776355
+                </a>
+              </li>
               <li>Seg a Sex, 9h às 18h</li>
             </ul>
           </div>
