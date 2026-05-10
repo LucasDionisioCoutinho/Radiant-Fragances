@@ -5,17 +5,29 @@ import "./menu.css";
 function Menu({ totalItens = 0, abrirCarrinho }) {
   const [aberto, setAberto] = useState(false);
 
+  function fecharMenu() {
+    setAberto(false);
+  }
+
   return (
     <nav className="menu">
       <div className="logo">
-        <Link to="/">RADIANT</Link>
+        <Link to="/" onClick={fecharMenu}>RADIANT</Link>
       </div>
 
       <ul className={`menu-lista ${aberto ? "ativo" : ""}`}>
-        <li className="menu-item"><Link to="/catalogo">Catálogo</Link></li>
-        <li className="menu-item"><Link to="/promocoes">Promoções</Link></li>
-        <li className="menu-item"><Link to="/sobre">Sobre</Link></li>
-        <li className="menu-item"><Link to="/faq">FAQ</Link></li>
+        <li className="menu-item">
+          <Link to="/catalogo" onClick={fecharMenu}>Catálogo</Link>
+        </li>
+        <li className="menu-item">
+          <Link to="/promocoes" onClick={fecharMenu}>Promoções</Link>
+        </li>
+        <li className="menu-item">
+          <Link to="/sobre" onClick={fecharMenu}>Sobre</Link>
+        </li>
+        <li className="menu-item">
+          <Link to="/faq" onClick={fecharMenu}>FAQ</Link>
+        </li>
       </ul>
 
       <div className="direita">
@@ -29,7 +41,7 @@ function Menu({ totalItens = 0, abrirCarrinho }) {
         </div>
 
         <button className="menu-toggle" onClick={() => setAberto(!aberto)}>
-          ☰
+          {aberto ? "✕" : "☰"}
         </button>
       </div>
     </nav>
