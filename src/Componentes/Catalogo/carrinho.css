@@ -381,3 +381,99 @@
         font-size: 13px;
     }
 }
+
+/* CUPOM */
+.carrinho-cupom {
+  margin: 12px 0;
+  padding-top: 12px;
+  border-top: 1px solid #222;
+}
+
+.cupom-input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.cupom-input-wrapper input {
+  flex: 1;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+.cupom-input-wrapper input:focus {
+  border-color: #d4af37;
+}
+
+.cupom-input-wrapper button {
+  background: #1a1a1a;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.cupom-input-wrapper button:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+.cupom-aplicado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1a1a1a;
+  border: 1px solid #2ecc71;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #2ecc71;
+}
+
+.cupom-aplicado button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.cupom-aplicado button:hover {
+  color: #e74c3c;
+}
+
+.cupom-erro {
+  font-size: 12px;
+  color: #e74c3c;
+  margin-top: 6px;
+}
+
+/* TOTAIS */
+.total-linha {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 6px;
+}
+
+.total-linha.desconto {
+  color: #2ecc71;
+}
+
+.total-linha.total-final {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 6px;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+}

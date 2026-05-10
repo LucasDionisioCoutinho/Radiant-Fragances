@@ -153,3 +153,25 @@
     max-width: 300px;
   }
 }
+
+.contato-feedback {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 16px;
+  width: 100%;
+  animation: fadeOut 0.5s ease 3s forwards;
+}
+
+.contato-feedback.sucesso {
+  color: #2ecc71;
+}
+
+.contato-feedback.erro {
+  color: #e74c3c;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

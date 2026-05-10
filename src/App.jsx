@@ -20,7 +20,6 @@ import Catalogo from "./Componentes/Catalogo/Catalogo.jsx";
 function App() {
   const [carrinho, setCarrinho] = useState([]);
   const [carrinhoAberto, setCarrinhoAberto] = useState(false);
-  console.log("carrinhoAberto:", carrinhoAberto);
 
   function adicionarCarrinho(produto) {
     setCarrinho((prev) => {
