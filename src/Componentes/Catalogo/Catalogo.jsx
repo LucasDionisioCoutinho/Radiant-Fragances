@@ -1,14 +1,13 @@
 import { useState } from "react";
 
-import produtosData from "../../Data/produtos.json";
+import produtosData from "../../../Data/produtos.json";
 
 import CardProduto from "./CardProduto";
 import ModalProduto from "./ModalProduto";
-import Carrinho from "./Carrinho";
 
 import "./catalogo.css";
 
-function Catalogo({ carrinho, adicionarCarrinho, removerItem, carrinhoAberto, setCarrinhoAberto }) {
+function Catalogo({  adicionarCarrinho,setCarrinhoAberto }) {
   const produtos = produtosData;
 
   const perfumes100ml = produtos.filter((produto) =>
@@ -101,25 +100,6 @@ function Catalogo({ carrinho, adicionarCarrinho, removerItem, carrinhoAberto, se
         produtos={produtos}
         fecharModal={fecharModal}
         adicionarCarrinho={handleAdicionarCarrinho}
-      />
-
-      {carrinhoAberto && (
-        <div
-          onClick={() => setCarrinhoAberto(false)}
-          style={{
-            position: "fixed",
-            inset: 0,
-            background: "rgba(0,0,0,0.5)",
-            zIndex: 9998,
-          }}
-        />
-      )}
-
-      <Carrinho
-        carrinho={carrinho}
-        abrirCarrinho={carrinhoAberto}
-        fecharCarrinho={() => setCarrinhoAberto(false)}
-        removerItem={removerItem}
       />
     </main>
   );
