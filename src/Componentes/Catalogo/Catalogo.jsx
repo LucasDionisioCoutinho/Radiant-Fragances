@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import produtosData from "../../../Data/produtos.json";
+import produtosData from "../../Data/produtos.json";
 
 import CardProduto from "./CardProduto";
 import ModalProduto from "./ModalProduto";
