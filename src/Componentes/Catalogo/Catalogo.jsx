@@ -1,30 +1,20 @@
 import { useState } from "react";
-
 import produtosData from "../../Data/produtos.json";
-
 import CardProduto from "./CardProduto";
 import ModalProduto from "./ModalProduto";
-
+import SEO from "../SEO/SEO.jsx";
 import "./catalogo.css";
 
-function Catalogo({  adicionarCarrinho,setCarrinhoAberto }) {
+function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
   const produtos = produtosData;
-
-  const perfumes100ml = produtos.filter((produto) =>
-    produto.id?.endsWith("-100"),
-  );
+  const perfumes100ml = produtos.filter((produto) => produto.id?.endsWith("-100"));
 
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
   const [busca, setBusca] = useState("");
   const [produtosFiltrados, setProdutosFiltrados] = useState(perfumes100ml);
 
-  function abrirModal(produto) {
-    setProdutoSelecionado(produto);
-  }
-
-  function fecharModal() {
-    setProdutoSelecionado(null);
-  }
+  function abrirModal(produto) { setProdutoSelecionado(produto); }
+  function fecharModal() { setProdutoSelecionado(null); }
 
   function handleAdicionarCarrinho(produto) {
     adicionarCarrinho(produto);
@@ -33,31 +23,31 @@ function Catalogo({  adicionarCarrinho,setCarrinhoAberto }) {
   }
 
   function filtrarMaisVendidos() {
-    const filtrados = perfumes100ml.filter((produto) => produto.maisVendido);
-    setProdutosFiltrados(filtrados);
+    setProdutosFiltrados(perfumes100ml.filter((p) => p.maisVendido));
   }
 
   function filtrarLancamentos() {
-    const filtrados = perfumes100ml.filter((produto) => produto.lancamentos);
-    setProdutosFiltrados(filtrados);
+    setProdutosFiltrados(perfumes100ml.filter((p) => p.lancamentos));
   }
 
-  function mostrarTodos() {
-    setProdutosFiltrados(perfumes100ml);
-  }
+  function mostrarTodos() { setProdutosFiltrados(perfumes100ml); }
 
   function filtrarBusca() {
     const termo = busca.toLowerCase();
-    const filtrados = perfumes100ml.filter(
-      (produto) =>
-        produto.nome.toLowerCase().includes(termo) ||
-        produto.marca.toLowerCase().includes(termo),
+    setProdutosFiltrados(
+      perfumes100ml.filter(
+        (p) => p.nome.toLowerCase().includes(termo) || p.marca.toLowerCase().includes(termo)
+      )
     );
-    setProdutosFiltrados(filtrados);
   }
 
   return (
     <main>
+      <SEO
+        titulo="Catálogo"
+        descricao="Explore nossa coleção de perfumes importados, nacionais e decants."
+      />
+
       <div className="container-catalago">
         <h2 className="h2-catalago">Catálogo</h2>
         <h1 className="h1-catalago">Nossas Fragrâncias</h1>
@@ -70,11 +60,10 @@ function Catalogo({  adicionarCarrinho,setCarrinhoAberto }) {
               placeholder="Buscar..."
               value={busca}
               onChange={(e) => setBusca(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && filtrarBusca()}
             />
           </div>
-          <button className="btn-buscar" onClick={filtrarBusca}>
-            Buscar
-          </button>
+          <button className="btn-buscar" onClick={filtrarBusca}>Buscar</button>
         </div>
 
         <div className="divs-btns">
@@ -86,11 +75,7 @@ function Catalogo({  adicionarCarrinho,setCarrinhoAberto }) {
 
       <section className="catalogo-grid">
         {produtosFiltrados.map((produto) => (
-          <CardProduto
-            key={produto.id}
-            produto={produto}
-            abrirModal={abrirModal}
-          />
+          <CardProduto key={produto.id} produto={produto} abrirModal={abrirModal} />
         ))}
       </section>
 

@@ -3,6 +3,7 @@ import produtosData from "../../Data/produtos.json";
 import cuponsData from "../../Data/cupons.json";
 import bannerData from "../../Data/banner.json";
 import BannerPromo from "../../Componentes/BannerPromo/BannerPromo.jsx";
+import SEO from "../../Componentes/SEO/SEO.jsx";
 import "./promocoes.css";
 
 const WHATSAPP_NUMERO = "5511916776355";
@@ -51,7 +52,10 @@ function Promocoes() {
       const index = prev.findIndex((item) => item.id === produto.id);
       if (index !== -1) {
         const novo = [...prev];
-        novo[index] = { ...novo[index], quantidade: novo[index].quantidade + 1 };
+        novo[index] = {
+          ...novo[index],
+          quantidade: novo[index].quantidade + 1,
+        };
         return novo;
       }
       return [...prev, { ...produto, quantidade: 1 }];
@@ -66,15 +70,17 @@ function Promocoes() {
     setCarrinhoPromo((prev) =>
       prev
         .map((item) =>
-          item.id === id ? { ...item, quantidade: item.quantidade + delta } : item
+          item.id === id
+            ? { ...item, quantidade: item.quantidade + delta }
+            : item,
         )
-        .filter((item) => item.quantidade > 0)
+        .filter((item) => item.quantidade > 0),
     );
   }
 
   function aplicarCupom() {
     const encontrado = cuponsData.find(
-      (c) => c.codigo.toUpperCase() === cupom.toUpperCase()
+      (c) => c.codigo.toUpperCase() === cupom.toUpperCase(),
     );
     if (encontrado) {
       setCupomAplicado(encontrado);
@@ -87,9 +93,11 @@ function Promocoes() {
 
   const subtotal = carrinhoPromo.reduce(
     (acc, item) => acc + calcularPrecoComDesconto(item) * item.quantidade,
-    0
+    0,
   );
-  const descontoCupom = cupomAplicado ? subtotal * (cupomAplicado.desconto / 100) : 0;
+  const descontoCupom = cupomAplicado
+    ? subtotal * (cupomAplicado.desconto / 100)
+    : 0;
   const total = subtotal - descontoCupom;
   const totalItens = carrinhoPromo.reduce((acc, i) => acc + i.quantidade, 0);
 
@@ -99,7 +107,7 @@ function Promocoes() {
     const itens = carrinhoPromo
       .map(
         (item) =>
-          `• ${item.nome} (${item.quantidade}x) — R$ ${(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)} (${item.desconto}% off)`
+          `• ${item.nome} (${item.quantidade}x) — R$ ${(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)} (${item.desconto}% off)`,
       )
       .join("\n");
 
@@ -115,7 +123,7 @@ function Promocoes() {
 
     window.open(
       `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(mensagem)}`,
-      "_blank"
+      "_blank",
     );
   }
 
@@ -133,7 +141,9 @@ function Promocoes() {
                   <p>{item.nome}</p>
                   <p>
                     {item.quantidade}x — R${" "}
-                    {(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)}
+                    {(calcularPrecoComDesconto(item) * item.quantidade).toFixed(
+                      2,
+                    )}
                   </p>
                 </div>
                 <button
@@ -190,6 +200,10 @@ function Promocoes() {
 
   return (
     <main className="promo-page">
+      <SEO
+        titulo="Promoções"
+        descricao="Aproveite nossas ofertas exclusivas em perfumes importados e decants."
+      />
 
       {bannerData.ativo ? (
         <BannerPromo modo="banner" />
@@ -223,7 +237,6 @@ function Promocoes() {
       )}
 
       <div className="promo-layout">
-
         <section className="promo-grid">
           {produtosEmPromocao.map((produto) => {
             const precoFinal = calcularPrecoComDesconto(produto);
@@ -248,9 +261,13 @@ function Promocoes() {
                   </div>
                   {noCarrinho ? (
                     <div className="promo-qtd-control">
-                      <button onClick={() => alterarQuantidade(produto.id, -1)}>−</button>
+                      <button onClick={() => alterarQuantidade(produto.id, -1)}>
+                        −
+                      </button>
                       <span>{noCarrinho.quantidade}</span>
-                      <button onClick={() => alterarQuantidade(produto.id, 1)}>+</button>
+                      <button onClick={() => alterarQuantidade(produto.id, 1)}>
+                        +
+                      </button>
                     </div>
                   ) : (
                     <button
@@ -267,7 +284,9 @@ function Promocoes() {
         </section>
 
         {/* CARRINHO PC */}
-        <aside className={`promo-carrinho ${carrinhoMobileAberto ? "mobile-aberto" : ""}`}>
+        <aside
+          className={`promo-carrinho ${carrinhoMobileAberto ? "mobile-aberto" : ""}`}
+        >
           <div className="promo-carrinho-header">
             <h3>Seu Pedido</h3>
             <button
@@ -299,7 +318,6 @@ function Promocoes() {
           onClick={() => setCarrinhoMobileAberto(false)}
         />
       )}
-
     </main>
   );
 }

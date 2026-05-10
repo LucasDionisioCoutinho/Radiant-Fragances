@@ -1,8 +1,14 @@
 import "./sobre.css";
+import SEO from "../../../Componentes/SEO/SEO.jsx";
 
 function Sobre() {
   return (
     <div>
+      <SEO
+        titulo="Sobre"
+        descricao="Conheça a Radiant Fragrances, especializada em perfumes importados e decants."
+      />
+
       <section>
         <div className="container">
           <h3>Institucional</h3>
