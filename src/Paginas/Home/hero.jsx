@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import "./hero.css";
 
 function Home() {
@@ -18,12 +18,12 @@ function Home() {
       </p>
 
       <div className="div-botoes">
-        <a href="paginas/catalago.html">
+        <Link to="/catalogo">
           <button className="btn-explorar">EXPLORAR CATÁLOGO</button>
-        </a>
-        <a href="paginas/catalagodecants.html">
-          <button className="btn-decants">VER DECANTS</button>
-        </a>
+        </Link>
+        <Link to="/promocoes">
+          <button className="btn-decants">PROMOÇÕES</button>
+        </Link>
       </div>
     </section>
   );
