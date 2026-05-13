@@ -2,720 +2,4480 @@
   {
     "id": "ASD-100",
     "nome": "Asad | Lattafa - Eau de Parfum 100ml",
-    "preco": 219.9,
+    "preco": 289.9,
     "precoOriginal": 280.0,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
     "imagem": "/Imagens/asd-100.jpg",
-    "maisVendido": true
+    "maisVendido": true,
+    "notas": {
+      "topo": [
+        "Pimenta Preta",
+        "Lavanda",
+        "Noz-Moscada"
+      ],
+      "coracao": [
+        "Cedro",
+        "Rosa",
+        "Gerânio"
+      ],
+      "base": [
+        "Âmbar",
+        "Oud",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "ASD-10",
     "nome": "Asad | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/asd-10.jpg"
   },
   {
     "id": "ASDB-100",
     "nome": "Asad Bourbon | Lattafa - Eua de Parfum 100ml",
-    "preco": 299.9,
+    "preco": 319.9,
     "precoOriginal": 350.9,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
     "imagem": "Imagens/asdb-100.jpg",
-    "maisVendido": true
+    "maisVendido": true,
+    "notas": {
+      "topo": [
+        "Ameixa Mirabelle",
+        "Pimenta Rosa",
+        "Lavanda"
+      ],
+      "coracao": [
+        "Cacau",
+        "Noz-Moscada",
+        "Davana"
+      ],
+      "base": [
+        "Baunilha Bourbon",
+        "Âmbar",
+        "Vetiver"
+      ]
+    }
   },
   {
     "id": "ASDB-10",
     "nome": "Asad Bourbon | Lattafa - Perfume de Bolso 10ml",
-    "preco": 38.0,
+    "preco": 38.9,
     "marca": "Lattafa",
     "imagem": "Imagens/asdb-10.jpg"
   },
   {
     "id": "ASDE-100",
     "nome": "Asad Elixir | Lattafa - Eua de Parfum 100ml",
-    "preco": 379.9,
+    "preco": 329.9,
     "precoOriginal": 400.0,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
     "imagem": "Imagens/asde-100.jpg",
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Toranja",
+        "Pimenta Rosa",
+        "Açafrão"
+      ],
+      "coracao": [
+        "Tabaco",
+        "Cedro",
+        "Baunilha"
+      ],
+      "base": [
+        "Patchouli",
+        "Olíbano",
+        "Cashmeran",
+        "Âmbar Seco"
+      ]
+    }
   },
   {
     "id": "ASDE-10",
     "nome": "Asad Elixir | Lattafa - Perfume de Bolso 10ml",
-    "preco": 55.0,
+    "preco": 55.9,
     "marca": "Lattafa",
     "imagem": "Imagens/asde-10.jpg"
   },
   {
     "id": "ASDZ-100",
     "nome": "Asad Zanzibar | Lattafa - Eua de Parfum 100ml",
-    "preco": 199.9,
+    "preco": 239.9,
     "precoOriginal": 280.0,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
-    "imagem": "Imagens/asdz-100.jpg"
+    "imagem": "Imagens/asdz-100.jpg",
+    "notas": {
+      "topo": [
+        "Lavanda",
+        "Pimenta Preta"
+      ],
+      "coracao": [
+        "Água de Coco",
+        "Íris",
+        "Sal"
+      ],
+      "base": [
+        "Baunilha",
+        "Incenso"
+      ]
+    }
   },
   {
     "id": "ASDZ-10",
     "nome": "Asad Zanzibar | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/asdz-10.jpg"
   },
   {
     "id": "FKG-100",
     "nome": "Fakhar Gold | Lattafa - Eua de Parfum 100ml",
-    "preco": 230.0,
+    "preco": 259.9,
     "precoOriginal": 350.9,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
     "imagem": "Imagens/fkg-100.jpg",
     "maisVendido": true,
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Tuberosa",
+        "Sal"
+      ],
+      "coracao": [
+        "Âmbar",
+        "Tonka",
+        "Cashmeran"
+      ],
+      "base": [
+        "Cedro",
+        "Vetiver",
+        "Labdanum"
+      ]
+    }
   },
   {
     "id": "FKG-10",
     "nome": "Fakhar Gold | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkg-10.jpg"
   },
   {
     "id": "FKB-100",
     "nome": "Fakhar Black | Lattafa - Eua de Parfum 100ml",
-    "preco": 235.0,
+    "preco": 289.9,
     "precoOriginal": 280.0,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
     "imagem": "Imagens/fkb-100.jpg",
     "maisVendido": true,
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Maçã",
+        "Bergamota",
+        "Gengibre"
+      ],
+      "coracao": [
+        "Lavanda",
+        "Sálvia",
+        "Bagas de Zimbro",
+        "Gerânio"
+      ],
+      "base": [
+        "Tonka",
+        "Cedro",
+        "Amberwood",
+        "Vetiver"
+      ]
+    }
   },
   {
     "id": "FKB-10",
     "nome": "Fakhar Black | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkb-10.jpg"
   },
   {
     "id": "FKP-100",
     "nome": "Fakhar Platin | Lattafa - Eua de Parfum 100ml",
-    "preco": 225.0,
+    "preco": 269.9,
     "precoOriginal": 280.0,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
-    "imagem": "Imagens/fkp-100.jpg"
+    "imagem": "Imagens/fkp-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Rosa",
+        "Cardamomo"
+      ],
+      "coracao": [
+        "Goiaba",
+        "Lavanda",
+        "Gengibre"
+      ],
+      "base": [
+        "Incenso",
+        "Palo Santo",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "FKP-10",
     "nome": "Fakhar Platin | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkp-10.jpg"
   },
   {
     "id": "FKR-100",
     "nome": "Fakhar Rose | Lattafa - Eua de Parfum 100ml",
-    "preco": 230.0,
+    "preco": 339.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/fkr-100.jpg"
+    "imagem": "Imagens/fkr-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Lírio",
+        "Romã",
+        "Aldeídos"
+      ],
+      "coracao": [
+        "Tuberosa",
+        "Jasmim",
+        "Gardênia",
+        "Ylang-Ylang",
+        "Rosa",
+        "Peônia"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar Branco",
+        "Sândalo",
+        "Ambroxan"
+      ]
+    }
   },
   {
     "id": "FKR-10",
     "nome": "Fakhar Platin | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkr-10.jpg"
   },
   {
     "id": "YARA-100",
     "nome": "Yara | Lattafa - Eua de Parfum 100ml",
-    "preco": 229.5,
+    "preco": 269.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yara-100.jpg",
-    "maisVendido": true
+    "maisVendido": true,
+    "notas": {
+      "topo": [
+        "Mandarina",
+        "Heliotropo",
+        "Orquídea"
+      ],
+      "coracao": [
+        "Frutas Tropicais",
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Sândalo",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "YARA-10",
     "nome": "Yara | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yara-10.jpg"
   },
   {
     "id": "YRC-100",
     "nome": "Yara Candy| Lattafa - Eua de Parfum 100ml",
-    "preco": 229.5,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/yrc-100.jpg"
+    "imagem": "Imagens/yrc-100.jpg",
+    "notas": {
+      "topo": [
+        "Tangerina Verde",
+        "Groselha Preta"
+      ],
+      "coracao": [
+        "Gardênia",
+        "Bala de Morango"
+      ],
+      "base": [
+        "Sândalo",
+        "Xarope de Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "YRC-10",
     "nome": "Yara Candy| Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yrc-10.jpg"
   },
   {
     "id": "YRE-100",
     "nome": "Yara Elixir| Lattafa - Eua de Parfum 100ml",
-    "preco": 339.9,
+    "preco": 329.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yre-100.jpg",
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "S'mores de Morango",
+        "Groselha Preta"
+      ],
+      "coracao": [
+        "Jasmim",
+        "Flor de Laranjeira"
+      ],
+      "base": [
+        "Baunilha",
+        "Caramelo",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "YRE-10",
     "nome": "Yara Elixir| Lattafa - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yre-10.jpg"
   },
   {
     "id": "YRT-100",
     "nome": "Yara Tous | Lattafa - Eua de Parfum 100ml",
-    "preco": 215.0,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/yrt-100.jpg"
+    "imagem": "Imagens/yrt-100.jpg",
+    "notas": {
+      "topo": [
+        "Manga",
+        "Coco",
+        "Maracujá"
+      ],
+      "coracao": [
+        "Jasmim",
+        "Flor de Laranjeira",
+        "Heliotropo"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Cashmeran"
+      ]
+    }
   },
   {
     "id": "YRT-10",
     "nome": "Yara Tous | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yrt-10.jpg"
   },
   {
     "id": "YRM-100",
     "nome": "Yara Moi | Lattafa - Eua de Parfum 100ml",
-    "preco": 229.5,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/yrm-100.jpg"
+    "imagem": "Imagens/yrm-100.jpg",
+    "notas": {
+      "topo": [
+        "Pêra",
+        "Pimenta Rosa",
+        "Groselha Preta"
+      ],
+      "coracao": [
+        "Tuberosa",
+        "Jasmim",
+        "Amêndoa"
+      ],
+      "base": [
+        "Baunilha",
+        "Cashmeran",
+        "Patchouli"
+      ]
+    }
   },
   {
     "id": "YRM-10",
     "nome": "Yara Moi | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/yrm-10.jpg"
   },
   {
     "id": "KMR-100",
     "nome": "Khamrah | Lattafa - Eua de Parfum 100ml",
-    "preco": 280.0,
+    "preco": 279.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/kmr-100.jpg"
+    "imagem": "Imagens/kmr-100.jpg",
+    "notas": {
+      "topo": [
+        "Canela",
+        "Noz-Moscada",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Tâmaras",
+        "Pralinê",
+        "Tuberosa"
+      ],
+      "base": [
+        "Baunilha",
+        "Tonka",
+        "Amberwood",
+        "Mirra",
+        "Benjoim"
+      ]
+    }
   },
   {
     "id": "KMR-10",
     "nome": "Khamrah | Lattafa - Perfume de Bolso 10ml",
-    "preco": 38.0,
+    "preco": 38.9,
     "marca": "Lattafa",
     "imagem": "Imagens/kmr-10.jpg"
   },
   {
     "id": "KMQ-100",
     "nome": "Khamrah Qahwa| Lattafa - Eua de Parfum 100ml",
-    "preco": 280.0,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/kmq-100.jpg"
+    "imagem": "Imagens/kmq-100.jpg",
+    "notas": {
+      "topo": [
+        "Canela",
+        "Cardamomo",
+        "Gengibre"
+      ],
+      "coracao": [
+        "Pralinê",
+        "Frutas Cristalizadas",
+        "Flores Brancas"
+      ],
+      "base": [
+        "Café",
+        "Baunilha",
+        "Tonka",
+        "Benjoim",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "KMQ-10",
     "nome": "Khamrah Qahwa | Lattafa - Perfume de Bolso 10ml",
-    "preco": 38.0,
+    "preco": 38.9,
     "marca": "Lattafa",
     "imagem": "Imagens/kmq-10.jpg"
   },
   {
     "id": "KMD-100",
     "nome": "Khamrah Dukhan| Lattafa - Eua de Parfum 100ml",
-    "preco": 300.0,
+    "preco": 429.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/kmd-100.jpg"
+    "imagem": "Imagens/kmd-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Pimenta",
+        "Mandarina"
+      ],
+      "coracao": [
+        "Incenso",
+        "Labdanum",
+        "Flor de Laranjeira",
+        "Patchouli"
+      ],
+      "base": [
+        "Tabaco",
+        "Pralinê",
+        "Âmbar",
+        "Tonka",
+        "Benjoim"
+      ]
+    }
   },
   {
     "id": "KMD-10",
     "nome": "Khamrah Dukhan | Lattafa - Perfume de Bolso 10ml",
-    "preco": 40.0,
+    "preco": 40.9,
     "marca": "Lattafa",
     "imagem": "Imagens/kmd-10.jpg"
   },
   {
     "id": "WZR-100",
     "nome": "Wazeer | Lattafa - Eua de Parfum 100ml",
-    "preco": 345.0,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/wze-100.jpg"
+    "imagem": "Imagens/wze-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Rosa"
+      ],
+      "coracao": [
+        "Sândalo",
+        "Almíscar",
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Madeiras Orientais"
+      ]
+    }
   },
   {
     "id": "WZR-10",
     "nome": "Wazeer | Lattafa - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Lattafa",
     "imagem": "Imagens/kmd-10.jpg"
   },
   {
     "id": "SFR-100",
     "nome": "Safeer | Lattafa - Eua de Parfum 100ml",
-    "preco": 300.0,
+    "preco": 259.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/sfr-100.jpg"
+    "imagem": "Imagens/sfr-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Limão"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Especiarias"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "SFR-10",
     "nome": "Safeer | Lattafa - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Lattafa",
     "imagem": "Imagens/sfr-10.jpg"
   },
   {
     "id": "AMR-100",
     "nome": "Ameer | Lattafa - Eua de Parfum 100ml",
-    "preco": 295.0,
+    "preco": 259.9,
     "marca": "Lattafa",
     "imagem": "Imagens/amr-100.jpg",
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Cardamomo"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Oud",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "AMR-10",
     "nome": "Ameer | Lattafa - Lattafa - Perfume de Bolso 10ml",
-    "preco": 295.0,
+    "preco": 299.9,
     "marca": "Lattafa",
     "imagem": "Imagens/amr-10.jpg"
   },
   {
     "id": "MMI-100",
     "nome": "Musaman Intense | Lattafa - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 419.9,
     "marca": "Lattafa",
     "imagem": "Imagens/mmi-100.jpg",
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Rosa",
+        "Toranja"
+      ],
+      "coracao": [
+        "Sândalo",
+        "Notas Amadeiradas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Baunilha",
+        "Tonka"
+      ]
+    }
   },
   {
     "id": "MMI-10",
     "nome": "Musaman Intense | Lattafa - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "Lattafa",
     "imagem": "Imagens/mmi-10.jpg"
   },
   {
     "id": "BFH-100",
     "nome": "Bade'e Al For Honor | Lattafa - Eua de Parfum 100ml",
-    "preco": 259.0,
+    "preco": 279.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/bfh-100.jpg"
+    "imagem": "Imagens/bfh-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa",
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Sândalo",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "BFH-10",
     "nome": "Bade'e Al For Honor | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/bfh-10.jpg"
   },
   {
     "id": "BNB-100",
     "nome": "Bade'e Noble Blush | Lattafa - Eua de Parfum 100ml",
-    "preco": 255.0,
+    "preco": 279.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/bnb-100.jpg"
+    "imagem": "Imagens/bnb-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Rosa",
+        "Peônia",
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "BNB-10",
     "nome": "Bade'e Noble Blush | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/bnb-10.jpg"
   },
   {
     "id": "BS-100",
     "nome": "Bade'e Sublime | Lattafa - Eua de Parfum 100ml",
-    "preco": 255.0,
+    "preco": 269.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/bs-100.jpg"
+    "imagem": "Imagens/bs-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas Tropicais",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Coco"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "BS-10",
     "nome": "Bade'e Sublime | Lattafa - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/bs-10.jpg"
   },
   {
     "id": "BAT-100",
     "nome": "Bade'e Al Oud Amethyst | Lattafa - Eua de Parfum 100ml",
-    "preco": 230.0,
+    "preco": 269.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/bat-100.jpg"
+    "imagem": "Imagens/bat-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Oud",
+        "Flores Brancas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "BAT-10",
     "nome": "Bade'e Al Oud Amethyst | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/bat-10.jpg"
   },
   {
     "id": "BG-100",
     "nome": "Bade'e Al Oud For Glory | Lattafa - Eua de Parfum 100ml",
-    "preco": 230.0,
+    "preco": 279.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/bg-100.jpg"
+    "imagem": "Imagens/bg-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa"
+      ],
+      "base": [
+        "Âmbar",
+        "Sândalo",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "BG-10",
     "nome": "Bade'e Al Oud For Glory | Lattafa - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/bg-10.jpg"
   },
   {
     "id": "THG-100",
     "nome": "Tharwah Gold | Lattafa - Eua de Parfum 100ml",
-    "preco": 330.0,
+    "preco": 469.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/thg-100.jpg"
+    "imagem": "Imagens/thg-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Açafrão"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Florais Douradas"
+      ],
+      "base": [
+        "Oud",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "THG-10",
     "nome": "Tharwah Gold | Lattafa - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Lattafa",
     "imagem": "Imagens/thg-10.jpg"
   },
   {
     "id": "THS-100",
     "nome": "Tharwah Silver | Lattafa - Eua de Parfum 100ml",
-    "preco": 330.0,
+    "preco": 469.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/ths-100.jpg"
+    "imagem": "Imagens/ths-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Madeiras"
+      ],
+      "base": [
+        "Almíscar",
+        "Cedro",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "THS-10",
     "nome": "Tharwah Silver | Lattafa - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Lattafa",
     "imagem": "Imagens/ths-10.jpg"
   },
   {
     "id": "RYE-100",
     "nome": "Rayhaan Elixir| Lattafa - Eua de Parfum 100ml",
-    "preco": 300.0,
+    "preco": 429.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/rye-100.jpg"
+    "imagem": "Imagens/rye-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Rosa"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Especiarias"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "RYE-10",
     "nome": "Rayhaan Elixir| Lattafa - Perfume de Bolso 10ml",
-    "preco": 40.0,
+    "preco": 40.9,
     "marca": "Lattafa",
     "imagem": "Imagens/rye-10.jpg"
   },
   {
     "id": "EME-100",
     "nome": "Emeer | Lattafa - Eua de Parfum 100ml",
-    "preco": 405.0,
+    "preco": 339.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/eme-100.jpg"
+    "imagem": "Imagens/eme-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Cardamomo"
+      ],
+      "coracao": [
+        "Rosa",
+        "Oud",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "EME-10",
     "nome": "Emeer | Lattafa - Perfume de Bolso 10ml",
-    "preco": 55.0,
+    "preco": 55.9,
     "marca": "Lattafa",
     "imagem": "Imagens/eme-10.jpg"
   },
   {
     "id": "AFF-100",
     "nome": "Affef | Lattafa - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 529.9,
     "marca": "Lattafa",
-    "imagem": "Imagens/aff-100.jpg"
+    "imagem": "Imagens/aff-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Rosa",
+        "Oud",
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "AFF-10",
     "nome": "Affef | Lattafa - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "Lattafa",
     "imagem": "Imagens/aff-10.jpg"
   },
   {
     "id": "sbh-100",
     "nome": "Sabah | Al Wataniah - Eua de Parfum 100ml",
-    "preco": 210.0,
+    "preco": 219.9,
     "marca": "Al Wataniah",
-    "imagem": "Imagens/sbh-100.jpg"
+    "imagem": "Imagens/sbh-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas Cítricas"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "sbh-10",
     "nome": "Sabah | Al Wataniah - Perfume de Bolso 10ml",
-    "preco": 30.0,
+    "preco": 30.9,
     "marca": "Al Wataniah",
     "imagem": "Imagens/sbh-10.jpg"
   },
   {
     "id": "sbs-100",
     "nome": "Sabah Sugar | Al Wataniah - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 229.9,
     "marca": "Al Wataniah",
     "imagem": "Imagens/sbs-100.jpg",
-    "lancamentos": true
+    "lancamentos": true,
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Açúcar"
+      ],
+      "coracao": [
+        "Notas Florais Adocicadas"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "sbs-10",
     "nome": "Sabah Sugar | Al Wataniah - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "Al Wataniah",
     "imagem": "Imagens/sbs-10.jpg"
   },
   {
     "id": "drt-100",
     "nome": "Durrat | Al Wataniah - Eua de Parfum 100ml",
-    "preco": 180.0,
+    "preco": 239.9,
     "marca": "Al Wataniah",
-    "imagem": "Imagens/drt-100.jpg"
+    "imagem": "Imagens/drt-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Rosa"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "drt-10",
     "nome": "Durrat | Al Wataniah - Perfume de Bolso 10ml",
-    "preco": 25.0,
+    "preco": 25.9,
     "marca": "Al Wataniah",
     "imagem": "Imagens/drt-10.jpg"
   },
   {
     "id": "RYA-100",
     "nome": "Royal Amber | Orientica - Eua de Parfum 100ml",
-    "preco": 630.0,
+    "preco": 519.9,
     "marca": "Orientica",
-    "imagem": "Imagens/rya-100.jpg"
+    "imagem": "Imagens/rya-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Oud",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "RYA-10",
     "nome": "Royal Amber | Orientica - Perfume de Bolso 10ml",
-    "preco": 85.0,
+    "preco": 85.9,
     "marca": "Orientica",
     "imagem": "Imagens/rya-10.jpg"
   },
   {
     "id": "AZF-100",
     "nome": "Azure Fantasy | Orientica - Eua de Parfum 100ml",
-    "preco": 750.0,
+    "preco": 629.9,
     "marca": "Orientica",
-    "imagem": "Imagens/azf-100.jpg"
+    "imagem": "Imagens/azf-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aquáticas",
+        "Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "AZF-10",
     "nome": "Azure Fantasy | Orientica - Perfume de Bolso 10ml",
-    "preco": 100.0,
+    "preco": 109.9,
     "marca": "Orientica",
     "imagem": "Imagens/azf-10.jpg"
   },
   {
     "id": "ABR-100",
     "nome": "Amber Rouge | Orientica - Eua de Parfum 100ml",
-    "preco": 630.0,
+    "preco": 509.9,
     "marca": "Orientica",
-    "imagem": "Imagens/abr-100.jpg"
+    "imagem": "Imagens/abr-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "ABR-10",
     "nome": "Amber Rouge | Orientica - Eua de Parfum 10ml",
-    "preco": 85.0,
+    "preco": 85.9,
     "marca": "Orientica",
     "imagem": "Imagens/abr-10.jpg"
   },
   {
     "id": "CNI-100",
     "nome": "Club de Nuit Iconic | Armaf - Eua de Parfum 100ml",
-    "preco": 369.0,
+    "preco": 359.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cni-100.jpg"
+    "imagem": "Imagens/cni-100.jpg",
+    "notas": {
+      "topo": [
+        "Toranja",
+        "Limão",
+        "Hortelã",
+        "Pimenta Rosa",
+        "Coentro"
+      ],
+      "coracao": [
+        "Gengibre",
+        "Melão",
+        "Jasmim",
+        "Noz-Moscada"
+      ],
+      "base": [
+        "Incenso",
+        "Sândalo",
+        "Âmbar",
+        "Cedro",
+        "Patchouli",
+        "Labdanum"
+      ]
+    }
   },
   {
     "id": "CNI-10",
     "nome": "Club de Nuit Iconic | Armaf - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "Armaf",
     "imagem": "Imagens/cni-10.jpg"
   },
   {
     "id": "CNE-100",
     "nome": "Club de Nuit Elixir | Armaf - Eua de Parfum 100ml",
-    "preco": 345.0,
+    "preco": 489.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cne-100.jpg"
+    "imagem": "Imagens/cne-100.jpg",
+    "notas": {
+      "topo": [
+        "Toranja",
+        "Maçã",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Especiarias"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "CNE-10",
     "nome": "Club de Nuit Elixir | Armaf - Perfume de Bolso 10ml",
-    "preco": 48.0,
+    "preco": 48.9,
     "marca": "Armaf",
     "imagem": "Imagens/cne-10.jpg"
   },
   {
     "id": "CNW-100",
     "nome": "Club de Nuit Woman | Armaf - Eua de Parfum 100ml",
-    "preco": 270.0,
+    "preco": 299.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cnw-100.jpg"
+    "imagem": "Imagens/cnw-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Cítricas"
+      ],
+      "coracao": [
+        "Jasmim",
+        "Flores Brancas"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "CNW-10",
     "nome": "Club de Nuit Woman | Armaf - Perfume de Bolso 10ml",
-    "preco": 35.0,
+    "preco": 35.9,
     "marca": "Armaf",
     "imagem": "Imagens/cnw-10.jpg"
   },
   {
     "id": "CNU-100",
     "nome": "Club de Nuit Untold | Armaf - Eua de Parfum 100ml",
-    "preco": 360.0,
+    "preco": 359.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cnu-100.jpg"
+    "imagem": "Imagens/cnu-100.jpg",
+    "notas": {
+      "topo": [
+        "Açafrão",
+        "Jasmim"
+      ],
+      "coracao": [
+        "Amberwood",
+        "Âmbar-Gris"
+      ],
+      "base": [
+        "Resina de Abeto",
+        "Cedro"
+      ]
+    }
   },
   {
     "id": "CNU-10",
     "nome": "Club de Nuit Untold | Armaf - Perfume de Bolso 10ml",
-    "preco": 48.0,
+    "preco": 48.9,
     "marca": "Armaf",
     "imagem": "Imagens/cnu-10.jpg"
   },
   {
     "id": "CDN-100",
     "nome": "Club de Nuit Intense Men | Armaf - Eua de Parfum 100ml",
-    "preco": 300.0,
+    "preco": 339.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cdn-100.jpg"
+    "imagem": "Imagens/cdn-100.jpg",
+    "notas": {
+      "topo": [
+        "Limão",
+        "Abacaxi",
+        "Bergamota",
+        "Groselha Preta",
+        "Maçã"
+      ],
+      "coracao": [
+        "Bergamota",
+        "Notas Birch",
+        "Jasmim"
+      ],
+      "base": [
+        "Patchouli",
+        "Oud",
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "CDN-10",
     "nome": "Club de Nuit Intense Men | Armaf - Perfume de Bolso 10ml",
-    "preco": 40.0,
+    "preco": 40.9,
     "marca": "Armaf",
     "imagem": "Imagens/cdn-10.jpg"
   },
   {
     "id": "CNM-100",
     "nome": "Club de Nuit Maleka | Armaf - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 359.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cnm-100.jpg"
+    "imagem": "Imagens/cnm-100.jpg",
+    "notas": {
+      "topo": [
+        "Lichia",
+        "Bergamota",
+        "Pimenta Rosa"
+      ],
+      "coracao": [
+        "Íris"
+      ],
+      "base": [
+        "Pralinê",
+        "Ambroxan",
+        "Sândalo"
+      ]
+    }
   },
   {
     "id": "CNM-10",
     "nome": "Club de Nuit Maleka | Armaf - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "Armaf",
     "imagem": "Imagens/cnm-10.jpg"
   },
   {
     "id": "CNMT-100",
     "nome": "Club de Nuit Milestone | Armaf - Eua de Parfum 100ml",
-    "preco": 315.0,
+    "preco": 309.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cnmt-100.jpg"
+    "imagem": "Imagens/cnmt-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas",
+        "Notas Aquáticas"
+      ],
+      "coracao": [
+        "Violeta",
+        "Almíscar Aquático"
+      ],
+      "base": [
+        "Ambroxan",
+        "Vetiver",
+        "Almíscar"
+      ]
+    }
   },
   {
     "id": "CNMT-10",
     "nome": "Club de Nuit Milestone | Armaf - Perfume de Bolso 10ml",
-    "preco": 45.0,
+    "preco": 45.9,
     "marca": "Armaf",
     "imagem": "Imagens/cnmt-10.jpg"
   },
   {
     "id": "CNS-100",
     "nome": "Club de Nuit Sillage | Armaf - Eua de Parfum 100ml",
-    "preco": 360.0,
+    "preco": 329.9,
     "marca": "Armaf",
-    "imagem": "Imagens/cns-100.jpg"
+    "imagem": "Imagens/cns-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Limão",
+        "Lima",
+        "Groselha Preta",
+        "Gengibre"
+      ],
+      "coracao": [
+        "Rosa",
+        "Íris",
+        "Jasmim"
+      ],
+      "base": [
+        "Ambroxan",
+        "Almíscar",
+        "Sândalo",
+        "Cedro"
+      ]
+    }
   },
   {
     "id": "CNS-10",
     "nome": "Club de Nuit Sillage | Armaf - Perfume de Bolso 10ml",
-    "preco": 48.0,
+    "preco": 48.9,
     "marca": "Armaf",
     "imagem": "Imagens/cns-10.jpg"
   },
   {
     "id": "LQB-100",
     "nome": "Liquid Bru | French Avenue - Eua de Parfum 100ml",
-    "preco": 360.0,
+    "preco": 509.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/lqb-100.jpg"
+    "imagem": "Imagens/lqb-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Amadeiradas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "LQB-10",
     "nome": "Liquid Bru | French Avenue - Perfume de Bolso 10ml",
-    "preco": 48.0,
+    "preco": 48.9,
     "marca": "French Avenue",
     "imagem": "Imagens/lqb-10.jpg"
   },
   {
     "id": "SCG-100",
     "nome": "Spectre Ghost | French Avenue - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 529.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/scg-100.jpg"
+    "imagem": "Imagens/scg-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "SCG-10",
     "nome": "Spectre Ghost | French Avenue - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "French Avenue",
     "imagem": "Imagens/scg-10.jpg"
   },
   {
     "id": "VCF-100",
     "nome": "Vulcan Feu  | French Avenue - Eua de Parfum 100ml",
-    "preco": 375.0,
+    "preco": 529.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/vcf-100.jpg"
+    "imagem": "Imagens/vcf-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Notas Quentes"
+      ],
+      "coracao": [
+        "Madeiras",
+        "Resinas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Baunilha"
+      ]
+    }
   },
   {
     "id": "VCF-10",
     "nome": "Vulcan Feu  | French Avenue - Perfume de Bolso 10ml",
-    "preco": 50.0,
+    "preco": 50.9,
     "marca": "French Avenue",
     "imagem": "Imagens/vcf-10.jpg"
   },
   {
     "id": "VCB-100",
     "nome": "Vulcan Baie  | French Avenue - Eua de Parfum 100ml",
-    "preco": 400.0,
+    "preco": 329.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/vcb-100.jpg"
+    "imagem": "Imagens/vcb-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
   },
   {
     "id": "VCB-10",
     "nome": "Vulcan Baie  | French Avenue - Perfume de Bolso 10ml",
-    "preco": 55.0,
+    "preco": 55.9,
     "marca": "French Avenue",
     "imagem": "Imagens/vcb-10.jpg"
   },
   {
     "id": "VNS-100",
     "nome": "Veneno Scarlet  | French Avenue - Eua de Parfum 100ml",
-    "preco": 435.0,
+    "preco": 609.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/vns-100.jpg"
+    "imagem": "Imagens/vns-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas Vermelhas",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
   },
   {
     "id": "VNO-100",
     "nome": "Veneno | French Avenue - Eua de Parfum 100ml",
-    "preco": 435.0,
+    "preco": 609.9,
     "marca": "French Avenue",
-    "imagem": "Imagens/vno-100.jpg"
+    "imagem": "Imagens/vno-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "AFN9AM-100",
+    "nome": "9AM Dive | Afnan - Eua de Parfum 100ml",
+    "preco": 309.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9am-100.webp",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Aquáticas"
+      ],
+      "coracao": [
+        "Notas Marinhas",
+        "Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "AFN9AM-10",
+    "nome": "9AM Dive | Afnan - Perfume de Bolso 10ml",
+    "preco": 39.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9am-10.webp"
+  },
+  {
+    "id": "AFN9PMB-100",
+    "nome": "9PM Black | Afnan - Eua de Parfum 100ml",
+    "preco": 289.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmb-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Preta"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Especiadas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "AFN9PMB-10",
+    "nome": "9PM Black | Afnan - Perfume de Bolso 10ml",
+    "preco": 37.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmb-10.webp"
+  },
+  {
+    "id": "AFN9PMEL-100",
+    "nome": "9PM Elixir | Afnan - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmel-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Orientais",
+        "Especiadas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "AFN9PMEL-10",
+    "nome": "9PM Elixir | Afnan - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmel-10.jpg"
+  },
+  {
+    "id": "AFN9PMF-100",
+    "nome": "9PM Femme Purple | Afnan - Eua de Parfum 100ml",
+    "preco": 309.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmf-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "AFN9PMF-10",
+    "nome": "9PM Femme Purple | Afnan - Perfume de Bolso 10ml",
+    "preco": 39.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-9pmf-10.jpg"
+  },
+  {
+    "id": "AFNKIA-100",
+    "nome": "Kiaana Angel | Afnan - Eua de Parfum 100ml",
+    "preco": 319.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-kia-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais Angélicas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "AFNKIA-10",
+    "nome": "Kiaana Angel | Afnan - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-kia-10.jpg"
+  },
+  {
+    "id": "AFNTUR-100",
+    "nome": "Turathi Electric | Afnan - Eua de Parfum 90ml",
+    "preco": 349.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-tur-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "AFNTUR-10",
+    "nome": "Turathi Electric | Afnan - Perfume de Bolso 10ml",
+    "preco": 45.9,
+    "marca": "Afnan",
+    "imagem": "Imagens/afn-tur-10.jpg"
+  },
+  {
+    "id": "ALHFRE-100",
+    "nome": "Freya | Al Haramain - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-fre-100.jpg",
+    "notas": {
+      "topo": [
+        "Aldeídos",
+        "Bergamota",
+        "Pêssego"
+      ],
+      "coracao": [
+        "Flor de Laranjeira",
+        "Lírio-do-Vale"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar",
+        "Oud Delicado"
+      ]
+    }
+  },
+  {
+    "id": "ALHFRE-10",
+    "nome": "Freya | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-fre-10.jpg"
+  },
+  {
+    "id": "ALHLEI-100",
+    "nome": "Leif | Al Haramain - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lei-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Verdes"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHLEI-10",
+    "nome": "Leif | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lei-10.jpg"
+  },
+  {
+    "id": "ALHOLA-100",
+    "nome": "Olaf | Al Haramain - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-ola-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Amadeiradas",
+        "Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ALHOLA-10",
+    "nome": "Olaf | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-ola-10.jpg"
+  },
+  {
+    "id": "ALHCON-100",
+    "nome": "Conception | Al Haramain - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-con-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais Cremosas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHCON-10",
+    "nome": "Conception | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-con-10.jpg"
+  },
+  {
+    "id": "ALHHAR-100",
+    "nome": "Harmony | Al Haramain - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-har-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais Harmônicas"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHHAR-10",
+    "nome": "Harmony | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-har-10.jpg"
+  },
+  {
+    "id": "ALHOUD-100",
+    "nome": "Oud Nomad | Al Haramain - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-oud-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "ALHOUD-10",
+    "nome": "Oud Nomad | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-oud-10.jpg"
+  },
+  {
+    "id": "ALHAOC-100",
+    "nome": "Amber Oud Carbon | Al Haramain - Eua de Parfum 100ml",
+    "preco": 469.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aoc-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Defumadas"
+      ],
+      "coracao": [
+        "Oud",
+        "Notas de Carbono"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ALHAOC-10",
+    "nome": "Amber Oud Carbon | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 59.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aoc-10.jpg"
+  },
+  {
+    "id": "ALHAOG-100",
+    "nome": "Amber Oud Gold Dubai | Al Haramain - Extrait 100ml",
+    "preco": 459.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aog-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Verdes",
+        "Notas Frutadas"
+      ],
+      "coracao": [
+        "Melão",
+        "Abacaxi",
+        "Âmbar",
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Notas Amadeiradas"
+      ]
+    }
+  },
+  {
+    "id": "ALHAOG-10",
+    "nome": "Amber Oud Gold Dubai | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 59.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aog-10.jpg"
+  },
+  {
+    "id": "ALHAOR-100",
+    "nome": "Amber Oud Ruby | Al Haramain - Eua de Parfum 120ml",
+    "preco": 499.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aor-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas Vermelhas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Âmbar"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ALHAOR-10",
+    "nome": "Amber Oud Ruby | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 64.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aor-10.jpg"
+  },
+  {
+    "id": "ALHAOW-100",
+    "nome": "Amber Oud White | Al Haramain - Eua de Parfum 100ml",
+    "preco": 399.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aow-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais Brancas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHAOW-10",
+    "nome": "Amber Oud White | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 50.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-aow-10.jpg"
+  },
+  {
+    "id": "ALHLAC-100",
+    "nome": "L'Aventure Ciel | Al Haramain - Eua de Parfum 100ml",
+    "preco": 339.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lac-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Cítricas"
+      ],
+      "coracao": [
+        "Notas Florais Celestiais"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHLAC-10",
+    "nome": "L'Aventure Ciel | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 44.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lac-10.jpg"
+  },
+  {
+    "id": "ALHLAI-100",
+    "nome": "L'Aventure Iris | Al Haramain - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lai-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Cítricas"
+      ],
+      "coracao": [
+        "Íris",
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHLAI-10",
+    "nome": "L'Aventure Iris | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-lai-10.jpg"
+  },
+  {
+    "id": "ALHMB-100",
+    "nome": "Manege Blanche | Al Haramain - Eua de Parfum 75ml",
+    "preco": 419.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-mnb-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais Brancas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHMB-10",
+    "nome": "Manege Blanche | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 53.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-mnb-10.jpg"
+  },
+  {
+    "id": "ALHMR-100",
+    "nome": "Manege Rouge | Al Haramain - Eua de Parfum 75ml",
+    "preco": 419.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-mnr-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas Vermelhas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ALHMR-10",
+    "nome": "Manege Rouge | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 53.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-mnr-10.jpg"
+  },
+  {
+    "id": "ALHPAL-100",
+    "nome": "Palm Dubai | Al Haramain - Extrait 100ml",
+    "preco": 329.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pal-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frutadas"
+      ],
+      "coracao": [
+        "Notas Tropicais",
+        "Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHPAL-10",
+    "nome": "Palm Dubai | Al Haramain - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pal-10.jpg"
+  },
+  {
+    "id": "ALHPCR-100",
+    "nome": "Portfolio Cupid's Rose | Al Haramain",
+    "preco": 509.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pcr-100.jpg",
+    "notas": {
+      "topo": [
+        "Rosa",
+        "Frutas"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ALHPCR-10",
+    "nome": "Portfolio Cupid's Rose | Al Haramain - Bolso 10ml",
+    "preco": 65.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pcr-10.jpg"
+  },
+  {
+    "id": "ALHPER-100",
+    "nome": "Portfolio Euphoric Roots | Al Haramain",
+    "preco": 509.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-per-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Amadeiradas",
+        "Orientais"
+      ],
+      "base": [
+        "Raízes",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ALHPER-10",
+    "nome": "Portfolio Euphoric Roots | Al Haramain - Bolso 10ml",
+    "preco": 65.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-per-10.jpg"
+  },
+  {
+    "id": "ALHPFS-100",
+    "nome": "Portfolio Floral Sculpture | Al Haramain",
+    "preco": 509.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pfs-100.jpg",
+    "notas": {
+      "topo": [
+        "Flores",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais Esculpidas"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ALHPFS-10",
+    "nome": "Portfolio Floral Sculpture | Al Haramain - Bolso 10ml",
+    "preco": 65.9,
+    "marca": "Al Haramain",
+    "imagem": "Imagens/alh-pfs-10.jpg"
+  },
+  {
+    "id": "ALWEQA-100",
+    "nome": "Eqaab | Al Wataniah - Eua de Parfum 100ml",
+    "preco": 239.9,
+    "marca": "Al Wataniah",
+    "imagem": "Imagens/alw-eqa-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Amadeiradas",
+        "Florais"
+      ],
+      "base": [
+        "Oud",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ALWEQA-10",
+    "nome": "Eqaab | Al Wataniah - Perfume de Bolso 10ml",
+    "preco": 30.9,
+    "marca": "Al Wataniah",
+    "imagem": "Imagens/alw-eqa-10.jpg"
+  },
+  {
+    "id": "ALWSHA-100",
+    "nome": "Shagaf Al Ward | Al Wataniah - Eua de Parfum 100ml",
+    "preco": 239.9,
+    "marca": "Al Wataniah",
+    "imagem": "Imagens/alw-sha-100.jpg",
+    "notas": {
+      "topo": [
+        "Rosa",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Rosa"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ALWSHA-10",
+    "nome": "Shagaf Al Ward | Al Wataniah - Perfume de Bolso 10ml",
+    "preco": 30.9,
+    "marca": "Al Wataniah",
+    "imagem": "Imagens/alw-sha-10.jpg"
+  },
+  {
+    "id": "ARMBLI-100",
+    "nome": "Club de Nuit Bling | Armaf - Eua de Parfum 75ml",
+    "preco": 419.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-bli-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Rosas"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ARMBLI-10",
+    "nome": "Club de Nuit Bling | Armaf - Perfume de Bolso 10ml",
+    "preco": 53.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-bli-10.jpg"
+  },
+  {
+    "id": "ARMIMP-100",
+    "nome": "Club de Nuit Imperiale | Armaf - Eua de Parfum 105ml",
+    "preco": 349.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-imp-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ARMIMP-10",
+    "nome": "Club de Nuit Imperiale | Armaf - Perfume de Bolso 10ml",
+    "preco": 45.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-imp-10.jpg"
+  },
+  {
+    "id": "ARMLIO-100",
+    "nome": "Club de Nuit Lionheart | Armaf - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-lio-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "ARMLIO-10",
+    "nome": "Club de Nuit Lionheart | Armaf - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-lio-10.jpg"
+  },
+  {
+    "id": "ARMOAD-100",
+    "nome": "Odyssey Aoud | Armaf - Eua de Parfum 100ml",
+    "preco": 249.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oad-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Oud",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "ARMOAD-10",
+    "nome": "Odyssey Aoud | Armaf - Perfume de Bolso 10ml",
+    "preco": 32.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oad-10.jpg"
+  },
+  {
+    "id": "ARMOCA-100",
+    "nome": "Odyssey Candee | Armaf - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oca-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Doces"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOCA-10",
+    "nome": "Odyssey Candee | Armaf - Perfume de Bolso 10ml",
+    "preco": 32.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oca-10.jpg"
+  },
+  {
+    "id": "ARMOMH-100",
+    "nome": "Odyssey Homme Black | Armaf - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-omh-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Preta"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOMH-10",
+    "nome": "Odyssey Homme Black | Armaf - Perfume de Bolso 10ml",
+    "preco": 33.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-omh-10.jpg"
+  },
+  {
+    "id": "ARMOLI-100",
+    "nome": "Odyssey Limoni | Armaf - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oli-100.jpg",
+    "notas": {
+      "topo": [
+        "Limão",
+        "Notas Cítricas"
+      ],
+      "coracao": [
+        "Notas Florais Frescas"
+      ],
+      "base": [
+        "Almíscar",
+        "Cedro",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOLI-10",
+    "nome": "Odyssey Limoni | Armaf - Perfume de Bolso 10ml",
+    "preco": 33.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oli-10.jpg"
+  },
+  {
+    "id": "ARMOMA-100",
+    "nome": "Odyssey Mandarin Sky | Armaf - Eua de Parfum 100ml",
+    "preco": 289.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oma-100.jpg",
+    "notas": {
+      "topo": [
+        "Mandarina",
+        "Notas Cítricas"
+      ],
+      "coracao": [
+        "Notas Florais Frescas"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOMA-10",
+    "nome": "Odyssey Mandarin Sky | Armaf - Perfume de Bolso 10ml",
+    "preco": 37.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oma-10.jpg"
+  },
+  {
+    "id": "ARMOMS-100",
+    "nome": "Odyssey Marshmallow | Armaf - Eua de Parfum 100ml",
+    "preco": 339.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oms-100.jpg",
+    "notas": {
+      "topo": [
+        "Marshmallow",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand",
+        "Florais"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOMS-10",
+    "nome": "Odyssey Marshmallow | Armaf - Perfume de Bolso 10ml",
+    "preco": 43.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-oms-10.jpg"
+  },
+  {
+    "id": "ARMOWI-100",
+    "nome": "Odyssey Wild One | Armaf - Eua de Parfum 100ml",
+    "preco": 249.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-owi-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ARMOWI-10",
+    "nome": "Odyssey Wild One | Armaf - Perfume de Bolso 10ml",
+    "preco": 31.9,
+    "marca": "Armaf",
+    "imagem": "Imagens/arm-owi-10.jpg"
+  },
+  {
+    "id": "BHABLU-100",
+    "nome": "Bleu | Bharara - Eua de Parfum 100ml",
+    "preco": 409.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-blu-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Aquáticas"
+      ],
+      "coracao": [
+        "Notas Aromáticas Frescas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "BHABLU-10",
+    "nome": "Bleu | Bharara - Perfume de Bolso 10ml",
+    "preco": 52.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-blu-10.jpg"
+  },
+  {
+    "id": "BHACHO-100",
+    "nome": "Chocolate | Bharara - Eua de Parfum 100ml",
+    "preco": 449.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-cho-100.jpg",
+    "notas": {
+      "topo": [
+        "Chocolate",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "BHACHO-10",
+    "nome": "Chocolate | Bharara - Perfume de Bolso 10ml",
+    "preco": 58.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-cho-10.jpg"
+  },
+  {
+    "id": "BHAPEA-100",
+    "nome": "Peace | Bharara - Parfum 100ml",
+    "preco": 589.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-pea-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "BHAPEA-10",
+    "nome": "Peace | Bharara - Perfume de Bolso 10ml",
+    "preco": 75.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-pea-10.jpg"
+  },
+  {
+    "id": "BHAPH1-100",
+    "nome": "Pharaoh Ramesses I | Bharara - Parfum 100ml",
+    "preco": 659.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-ph1-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Orientais Profundas"
+      ],
+      "base": [
+        "Oud",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "BHAPH1-10",
+    "nome": "Pharaoh Ramesses I | Bharara - Perfume de Bolso 10ml",
+    "preco": 85.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-ph1-10.jpg"
+  },
+  {
+    "id": "BHAPH2-100",
+    "nome": "Pharaoh Ramesses II | Bharara - Parfum 100ml",
+    "preco": 679.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-ph2-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Orientais Profundas"
+      ],
+      "base": [
+        "Oud",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "BHAPH2-10",
+    "nome": "Pharaoh Ramesses II | Bharara - Perfume de Bolso 10ml",
+    "preco": 88.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-ph2-10.jpg"
+  },
+  {
+    "id": "BHAVBE-100",
+    "nome": "Viking Beirut | Bharara - Eua de Parfum 100ml",
+    "preco": 429.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vbe-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "BHAVBE-10",
+    "nome": "Viking Beirut | Bharara - Perfume de Bolso 10ml",
+    "preco": 55.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vbe-10.jpg"
+  },
+  {
+    "id": "BHAVCA-100",
+    "nome": "Viking Cairo | Bharara - Eua de Parfum 100ml",
+    "preco": 439.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vca-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Especiadas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "BHAVCA-10",
+    "nome": "Viking Cairo | Bharara - Perfume de Bolso 10ml",
+    "preco": 56.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vca-10.jpg"
+  },
+  {
+    "id": "BHAVKA-100",
+    "nome": "Viking Kashmir | Bharara - Eua de Parfum 100ml",
+    "preco": 429.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vka-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Madeiras"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "BHAVKA-10",
+    "nome": "Viking Kashmir | Bharara - Perfume de Bolso 10ml",
+    "preco": 55.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vka-10.jpg"
+  },
+  {
+    "id": "BHAVRI-100",
+    "nome": "Viking Rio | Bharara - Eua de Parfum 100ml",
+    "preco": 429.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vri-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Tropicais"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Frutadas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "BHAVRI-10",
+    "nome": "Viking Rio | Bharara - Perfume de Bolso 10ml",
+    "preco": 55.9,
+    "marca": "Bharara",
+    "imagem": "Imagens/bha-vri-10.jpg"
+  },
+  {
+    "id": "FRACHA-100",
+    "nome": "Chocola Addict | French Avenue - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-cha-100.jpg",
+    "notas": {
+      "topo": [
+        "Chocolate",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "FRACHA-10",
+    "nome": "Chocola Addict | French Avenue - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-cha-10.jpg"
+  },
+  {
+    "id": "FRACOC-100",
+    "nome": "Cocoa Morado | French Avenue - Eua de Parfum 100ml",
+    "preco": 299.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-coc-100.jpg",
+    "notas": {
+      "topo": [
+        "Cacau",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "FRACOC-10",
+    "nome": "Cocoa Morado | French Avenue - Perfume de Bolso 10ml",
+    "preco": 38.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-coc-10.jpg"
+  },
+  {
+    "id": "FRADIA-100",
+    "nome": "Divin Aoud | French Avenue - Eua de Parfum 100ml",
+    "preco": 389.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-dia-100.jpg",
+    "notas": {
+      "topo": [
+        "Açafrão",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "FRADIA-10",
+    "nome": "Divin Aoud | French Avenue - Perfume de Bolso 10ml",
+    "preco": 49.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-dia-10.jpg"
+  },
+  {
+    "id": "FRALUS-100",
+    "nome": "Luscious | French Avenue - Eua de Parfum 100ml",
+    "preco": 319.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-lus-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "FRALUS-10",
+    "nome": "Luscious | French Avenue - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-lus-10.jpg"
+  },
+  {
+    "id": "FRASPM-100",
+    "nome": "Spectre Marrom | French Avenue - Eua de Parfum 80ml",
+    "preco": 319.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-spm-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "FRASPM-10",
+    "nome": "Spectre Marrom | French Avenue - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-spm-10.jpg"
+  },
+  {
+    "id": "FRASPW-100",
+    "nome": "Spectre Wraith | French Avenue - Eua de Parfum 80ml",
+    "preco": 329.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-spw-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "FRASPW-10",
+    "nome": "Spectre Wraith | French Avenue - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-spw-10.jpg"
+  },
+  {
+    "id": "FRAVBI-100",
+    "nome": "Veneno Bianco | French Avenue - Eua de Parfum 100ml",
+    "preco": 399.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vbi-100.jpg",
+    "notas": {
+      "topo": [
+        "Flores Brancas",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais Brancas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "FRAVBI-10",
+    "nome": "Veneno Bianco | French Avenue - Perfume de Bolso 10ml",
+    "preco": 50.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vbi-10.jpg"
+  },
+  {
+    "id": "FRAVBF-100",
+    "nome": "Vulcan Black Friday | French Avenue - Eua de Parfum 100ml",
+    "preco": 389.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vbf-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Amadeiradas"
+      ],
+      "base": [
+        "Âmbar Negro",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "FRAVBF-10",
+    "nome": "Vulcan Black Friday | French Avenue - Perfume de Bolso 10ml",
+    "preco": 50.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vbf-10.jpg"
+  },
+  {
+    "id": "FRAVSA-100",
+    "nome": "Vulcan Sable | French Avenue - Eua de Parfum 100ml",
+    "preco": 299.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vsa-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Amadeiradas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "FRAVSA-10",
+    "nome": "Vulcan Sable | French Avenue - Perfume de Bolso 10ml",
+    "preco": 38.9,
+    "marca": "French Avenue",
+    "imagem": "Imagens/fra-vsa-10.jpg"
+  },
+  {
+    "id": "HALMAN-100",
+    "nome": "Man | Halloween - Eau de Toilette 125ml",
+    "preco": 359.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-man-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "HALMAN-10",
+    "nome": "Man | Halloween - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-man-10.jpg"
+  },
+  {
+    "id": "HALMHE-100",
+    "nome": "Man Hero | Halloween - Eau de Toilette 125ml",
+    "preco": 399.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-mhe-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "HALMHE-10",
+    "nome": "Man Hero | Halloween - Perfume de Bolso 10ml",
+    "preco": 50.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-mhe-10.jpg"
+  },
+  {
+    "id": "HALMX-100",
+    "nome": "Man X | Halloween - Eau de Toilette 125ml",
+    "preco": 379.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-mx-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "HALMX-10",
+    "nome": "Man X | Halloween - Perfume de Bolso 10ml",
+    "preco": 48.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-mx-10.jpg"
+  },
+  {
+    "id": "HALWIS-100",
+    "nome": "My Wish | Halloween - Eua de Parfum 100ml",
+    "preco": 469.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-wis-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Florais"
+      ],
+      "coracao": [
+        "Notas Florais Mágicas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "HALWIS-10",
+    "nome": "My Wish | Halloween - Perfume de Bolso 10ml",
+    "preco": 59.9,
+    "marca": "Halloween",
+    "imagem": "Imagens/hal-wis-10.jpg"
+  },
+  {
+    "id": "LATANG-100",
+    "nome": "Angham | Lattafa - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ang-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "LATANG-10",
+    "nome": "Angham | Lattafa - Perfume de Bolso 10ml",
+    "preco": 36.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ang-10.jpg"
+  },
+  {
+    "id": "LATATH-100",
+    "nome": "Atheeri | Lattafa - Eua de Parfum 100ml",
+    "preco": 549.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ath-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias Raras"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa",
+        "Notas Orientais Profundas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "LATATH-10",
+    "nome": "Atheeri | Lattafa - Perfume de Bolso 10ml",
+    "preco": 70.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ath-10.jpg"
+  },
+  {
+    "id": "LATDAL-100",
+    "nome": "Dalal | Lattafa - Eua de Parfum 100ml",
+    "preco": 399.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-dal-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "LATDAL-10",
+    "nome": "Dalal | Lattafa - Perfume de Bolso 10ml",
+    "preco": 51.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-dal-10.jpg"
+  },
+  {
+    "id": "LATECL-100",
+    "nome": "Eclaire | Lattafa - Eua de Parfum 100ml",
+    "preco": 289.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ecl-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas Cítricas"
+      ],
+      "coracao": [
+        "Notas Gourmand",
+        "Caramelo"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Tonka"
+      ]
+    }
+  },
+  {
+    "id": "LATECL-10",
+    "nome": "Eclaire | Lattafa - Perfume de Bolso 10ml",
+    "preco": 37.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-ecl-10.jpg"
+  },
+  {
+    "id": "LATECLB-100",
+    "nome": "Eclaire Banoffi | Lattafa - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-eclb-100.jpg",
+    "notas": {
+      "topo": [
+        "Banana",
+        "Frutas"
+      ],
+      "coracao": [
+        "Caramelo",
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Tonka",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "LATECLB-10",
+    "nome": "Eclaire Banoffi | Lattafa - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-eclb-10.jpg"
+  },
+  {
+    "id": "LATECLP-100",
+    "nome": "Eclaire Pistache | Lattafa - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-eclp-100.jpg",
+    "notas": {
+      "topo": [
+        "Pistache",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand",
+        "Caramelo"
+      ],
+      "base": [
+        "Baunilha",
+        "Tonka",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "LATECLP-10",
+    "nome": "Eclaire Pistache | Lattafa - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-eclp-10.jpg"
+  },
+  {
+    "id": "LATHER-100",
+    "nome": "Her Confession | Lattafa - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-her-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Pêra"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "LATHER-10",
+    "nome": "Her Confession | Lattafa - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-her-10.jpg"
+  },
+  {
+    "id": "LATJAS-100",
+    "nome": "Jasoor | Lattafa - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-jas-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "LATJAS-10",
+    "nome": "Jasoor | Lattafa - Perfume de Bolso 10ml",
+    "preco": 35.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-jas-10.jpg"
+  },
+  {
+    "id": "LATKOA-100",
+    "nome": "King Of Arabia | Lattafa - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-koa-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Rosa",
+        "Oud",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Sândalo",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "LATKOA-10",
+    "nome": "King Of Arabia | Lattafa - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-koa-10.jpg"
+  },
+  {
+    "id": "LATLAY-100",
+    "nome": "Layaan | Lattafa - Eua de Parfum 75ml",
+    "preco": 319.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-lay-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Cítricas"
+      ],
+      "coracao": [
+        "Notas Florais Suaves"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "LATLAY-10",
+    "nome": "Layaan | Lattafa - Perfume de Bolso 10ml",
+    "preco": 40.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-lay-10.jpg"
+  },
+  {
+    "id": "LATMAB-100",
+    "nome": "Maahir Black | Lattafa - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mab-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Preta"
+      ],
+      "coracao": [
+        "Sálvia",
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "LATMAB-10",
+    "nome": "Maahir Black | Lattafa - Perfume de Bolso 10ml",
+    "preco": 35.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mab-10.jpg"
+  },
+  {
+    "id": "LATMAG-100",
+    "nome": "Maahir Gold | Lattafa - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mag-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Maçã",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Lavanda",
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Âmbar",
+        "Tonka",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "LATMAG-10",
+    "nome": "Maahir Gold | Lattafa - Perfume de Bolso 10ml",
+    "preco": 33.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mag-10.jpg"
+  },
+  {
+    "id": "LATMAL-100",
+    "nome": "Maahir Legacy | Lattafa - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mal-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Maçã"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Cedro",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "LATMAL-10",
+    "nome": "Maahir Legacy | Lattafa - Perfume de Bolso 10ml",
+    "preco": 35.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-mal-10.jpg"
+  },
+  {
+    "id": "LATNEK-100",
+    "nome": "Niche Emarati Khanjar | Lattafa - Eua de Parfum 85ml",
+    "preco": 419.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-nek-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias Raras",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "LATNEK-10",
+    "nome": "Niche Emarati Khanjar | Lattafa - Perfume de Bolso 10ml",
+    "preco": 54.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-nek-10.jpg"
+  },
+  {
+    "id": "LATPET-100",
+    "nome": "Petra | Lattafa - Eua de Parfum 100ml",
+    "preco": 299.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-pet-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Madeiras"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "LATPET-10",
+    "nome": "Petra | Lattafa - Perfume de Bolso 10ml",
+    "preco": 38.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-pet-10.jpg"
+  },
+  {
+    "id": "LATSMN-100",
+    "nome": "Sur Mesure Noir | Lattafa - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-smn-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Notas Amadeiradas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras Negras"
+      ]
+    }
+  },
+  {
+    "id": "LATSMN-10",
+    "nome": "Sur Mesure Noir | Lattafa - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-smn-10.jpg"
+  },
+  {
+    "id": "LATTKF-100",
+    "nome": "The Kingdom Fem | Lattafa - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-tkf-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais Femininas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "LATTKF-10",
+    "nome": "The Kingdom Fem | Lattafa - Perfume de Bolso 10ml",
+    "preco": 35.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-tkf-10.jpg"
+  },
+  {
+    "id": "LATTKM-100",
+    "nome": "The Kingdom Masc | Lattafa - Eua de Parfum 100ml",
+    "preco": 299.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-tkm-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Cedro"
+      ]
+    }
+  },
+  {
+    "id": "LATTKM-10",
+    "nome": "The Kingdom Masc | Lattafa - Perfume de Bolso 10ml",
+    "preco": 38.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-tkm-10.jpg"
+  },
+  {
+    "id": "LATVIC-100",
+    "nome": "Victoria | Lattafa - Eua de Parfum 100ml",
+    "preco": 309.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-vic-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Rosas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "LATVIC-10",
+    "nome": "Victoria | Lattafa - Perfume de Bolso 10ml",
+    "preco": 40.9,
+    "marca": "Lattafa",
+    "imagem": "Imagens/lat-vic-10.jpg"
+  },
+  {
+    "id": "MAHDEL-100",
+    "nome": "Delilah Blanc | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-del-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais Brancas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "MAHDEL-10",
+    "nome": "Delilah Blanc | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-del-10.jpg"
+  },
+  {
+    "id": "MAHDEF-100",
+    "nome": "Delilah Pour Femme | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-def-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Florais"
+      ],
+      "coracao": [
+        "Notas Florais Femininas"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "MAHDEF-10",
+    "nome": "Delilah Pour Femme | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 35.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-def-10.jpg"
+  },
+  {
+    "id": "MAHJLA-100",
+    "nome": "Jean Lowe Azure | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-jla-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aquáticas",
+        "Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "MAHJLA-10",
+    "nome": "Jean Lowe Azure | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-jla-10.jpg"
+  },
+  {
+    "id": "MAHJLV-100",
+    "nome": "Jean Lowe Vibe | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-jlv-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "MAHJLV-10",
+    "nome": "Jean Lowe Vibe | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 41.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-jlv-10.jpg"
+  },
+  {
+    "id": "MAHPHI-100",
+    "nome": "Philos Pura | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-phi-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais Puras"
+      ],
+      "base": [
+        "Almíscar",
+        "Madeiras",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "MAHPHI-10",
+    "nome": "Philos Pura | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 33.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-phi-10.jpg"
+  },
+  {
+    "id": "MAHRSE-100",
+    "nome": "Rose Seduction VIP | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 279.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-rse-100.jpg",
+    "notas": {
+      "topo": [
+        "Rosa",
+        "Frutas"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "MAHRSE-10",
+    "nome": "Rose Seduction VIP | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 36.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-rse-10.jpg"
+  },
+  {
+    "id": "MAHSAL-100",
+    "nome": "Salvo | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 229.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-sal-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "MAHSAL-10",
+    "nome": "Salvo | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 29.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-sal-10.jpg"
+  },
+  {
+    "id": "MAHSAI-100",
+    "nome": "Salvo Intense | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 249.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-sai-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias Intensas"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "MAHSAI-10",
+    "nome": "Salvo Intense | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 31.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-sai-10.jpg"
+  },
+  {
+    "id": "MAHSCM-100",
+    "nome": "Sceptre Malachite | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 269.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-scm-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Verdes"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "MAHSCM-10",
+    "nome": "Sceptre Malachite | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 34.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-scm-10.jpg"
+  },
+  {
+    "id": "MAHVIC-100",
+    "nome": "Victorioso | Maison Alhambra - Eua de Parfum 100ml",
+    "preco": 229.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-vic-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "MAHVIC-10",
+    "nome": "Victorioso | Maison Alhambra - Perfume de Bolso 10ml",
+    "preco": 29.9,
+    "marca": "Maison Alhambra",
+    "imagem": "Imagens/mah-vic-10.jpg"
+  },
+  {
+    "id": "MAWFBA-100",
+    "nome": "Fantasy Basir | Mawwal - Eua de Parfum 100ml",
+    "preco": 319.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-fba-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "MAWFBA-10",
+    "nome": "Fantasy Basir | Mawwal - Perfume de Bolso 10ml",
+    "preco": 40.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-fba-10.jpg"
+  },
+  {
+    "id": "MAWFMA-100",
+    "nome": "Fantasy Malek | Mawwal - Eua de Parfum 100ml",
+    "preco": 309.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-fma-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "MAWFMA-10",
+    "nome": "Fantasy Malek | Mawwal - Perfume de Bolso 10ml",
+    "preco": 40.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-fma-10.jpg"
+  },
+  {
+    "id": "MAWSYM-100",
+    "nome": "Symphony Sitar | Mawwal - Eua de Parfum 100ml",
+    "preco": 319.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-sym-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "MAWSYM-10",
+    "nome": "Symphony Sitar | Mawwal - Perfume de Bolso 10ml",
+    "preco": 40.9,
+    "marca": "Mawwal",
+    "imagem": "Imagens/maw-sym-10.jpg"
+  },
+  {
+    "id": "ORIANO-100",
+    "nome": "Luxury Amber Noir | Orientica - Eua de Parfum 80ml",
+    "preco": 499.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-ano-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias",
+        "Frutas"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Orientais Escuras"
+      ],
+      "base": [
+        "Âmbar Negro",
+        "Oud",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ORIANO-10",
+    "nome": "Luxury Amber Noir | Orientica - Perfume de Bolso 10ml",
+    "preco": 64.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-ano-10.jpg"
+  },
+  {
+    "id": "ORIOSA-100",
+    "nome": "Luxury Oud Saffron | Orientica - Eua de Parfum 80ml",
+    "preco": 489.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-osa-100.jpg",
+    "notas": {
+      "topo": [
+        "Açafrão",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Oud",
+        "Rosa"
+      ],
+      "base": [
+        "Âmbar",
+        "Sândalo",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ORIOSA-10",
+    "nome": "Luxury Oud Saffron | Orientica - Perfume de Bolso 10ml",
+    "preco": 63.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-osa-10.jpg"
+  },
+  {
+    "id": "ORIRBL-100",
+    "nome": "Luxury Royal Bleu | Orientica - Eua de Parfum 80ml",
+    "preco": 539.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-rbl-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Aromáticas",
+        "Florais"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "ORIRBL-10",
+    "nome": "Luxury Royal Bleu | Orientica - Perfume de Bolso 10ml",
+    "preco": 69.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-rbl-10.jpg"
+  },
+  {
+    "id": "ORIVGO-100",
+    "nome": "Luxury Velvet Gold | Orientica - Eua de Parfum 80ml",
+    "preco": 529.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-vgo-100.jpg",
+    "notas": {
+      "topo": [
+        "Especiarias Douradas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Rosa",
+        "Notas Orientais"
+      ],
+      "base": [
+        "Âmbar Dourado",
+        "Almíscar",
+        "Sândalo"
+      ]
+    }
+  },
+  {
+    "id": "ORIVGO-10",
+    "nome": "Luxury Velvet Gold | Orientica - Perfume de Bolso 10ml",
+    "preco": 68.9,
+    "marca": "Orientica",
+    "imagem": "Imagens/ori-vgo-10.jpg"
+  },
+  {
+    "id": "PARMAB-100",
+    "nome": "Marshmallow Blush | Paris Corner - Eua de Parfum 100ml",
+    "preco": 359.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mab-100.jpg",
+    "notas": {
+      "topo": [
+        "Marshmallow",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand",
+        "Florais"
+      ],
+      "base": [
+        "Baunilha",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "PARMAB-10",
+    "nome": "Marshmallow Blush | Paris Corner - Perfume de Bolso 10ml",
+    "preco": 46.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mab-10.jpg"
+  },
+  {
+    "id": "PARMAM-100",
+    "nome": "Mawj Appletini | Paris Corner - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mam-100.jpg",
+    "notas": {
+      "topo": [
+        "Maçã Verde",
+        "Notas Frescas"
+      ],
+      "coracao": [
+        "Notas Florais",
+        "Frutas"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "PARMAM-10",
+    "nome": "Mawj Appletini | Paris Corner - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mam-10.jpg"
+  },
+  {
+    "id": "PARMM2-100",
+    "nome": "Mawj Moscow Mule | Paris Corner - Eua de Parfum 100ml",
+    "preco": 339.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mm2-100.jpg",
+    "notas": {
+      "topo": [
+        "Gengibre",
+        "Lima",
+        "Vodka"
+      ],
+      "coracao": [
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Madeiras",
+        "Almíscar",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "PARMM2-10",
+    "nome": "Mawj Moscow Mule | Paris Corner - Perfume de Bolso 10ml",
+    "preco": 44.9,
+    "marca": "Paris Corner",
+    "imagem": "Imagens/par-mm2-10.jpg"
+  },
+  {
+    "id": "RASHWB-100",
+    "nome": "Hawas Black | Rasasi - Eua de Parfum 100ml",
+    "preco": 329.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwb-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas Intensas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "RASHWB-10",
+    "nome": "Hawas Black | Rasasi - Perfume de Bolso 10ml",
+    "preco": 42.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwb-10.jpg"
+  },
+  {
+    "id": "RASHWE-100",
+    "nome": "Hawas Elixir | Rasasi - Eua de Parfum 100ml",
+    "preco": 339.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwe-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Especiarias"
+      ],
+      "coracao": [
+        "Notas Aromáticas Intensas"
+      ],
+      "base": [
+        "Âmbar",
+        "Almíscar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "RASHWE-10",
+    "nome": "Hawas Elixir | Rasasi - Perfume de Bolso 10ml",
+    "preco": 43.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwe-10.jpg"
+  },
+  {
+    "id": "RASHWH-100",
+    "nome": "Hawas For Her Gold | Rasasi - Eua de Parfum 100ml",
+    "preco": 259.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwh-100.jpg",
+    "notas": {
+      "topo": [
+        "Frutas",
+        "Bergamota"
+      ],
+      "coracao": [
+        "Notas Florais"
+      ],
+      "base": [
+        "Almíscar",
+        "Baunilha",
+        "Âmbar"
+      ]
+    }
+  },
+  {
+    "id": "RASHWH-10",
+    "nome": "Hawas For Her Gold | Rasasi - Perfume de Bolso 10ml",
+    "preco": 32.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwh-10.jpg"
+  },
+  {
+    "id": "RASHWM-100",
+    "nome": "Hawas For Him | Rasasi - Eua de Parfum 100ml",
+    "preco": 289.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwm-100.jpg",
+    "notas": {
+      "topo": [
+        "Bergamota",
+        "Notas Aquáticas"
+      ],
+      "coracao": [
+        "Notas Aromáticas Marinhas"
+      ],
+      "base": [
+        "Almíscar",
+        "Âmbar",
+        "Madeiras"
+      ]
+    }
+  },
+  {
+    "id": "RASHWM-10",
+    "nome": "Hawas For Him | Rasasi - Perfume de Bolso 10ml",
+    "preco": 37.9,
+    "marca": "Rasasi",
+    "imagem": "Imagens/ras-hwm-10.jpg"
+  },
+  {
+    "id": "ZIMTCA-100",
+    "nome": "Tiramisu Caramel | Zimaya - Eua de Parfum 100ml",
+    "preco": 299.9,
+    "marca": "Zimaya",
+    "imagem": "Imagens/zim-tca-100.jpg",
+    "notas": {
+      "topo": [
+        "Caramelo",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ZIMTCA-10",
+    "nome": "Tiramisu Caramel | Zimaya - Perfume de Bolso 10ml",
+    "preco": 38.9,
+    "marca": "Zimaya",
+    "imagem": "Imagens/zim-tca-10.jpg"
+  },
+  {
+    "id": "ZIMTCO-100",
+    "nome": "Tiramisu Coco | Zimaya - Eua de Parfum 100ml",
+    "preco": 289.9,
+    "marca": "Zimaya",
+    "imagem": "Imagens/zim-tco-100.jpg",
+    "notas": {
+      "topo": [
+        "Coco",
+        "Frutas"
+      ],
+      "coracao": [
+        "Notas Gourmand"
+      ],
+      "base": [
+        "Baunilha",
+        "Âmbar",
+        "Almíscar"
+      ]
+    }
+  },
+  {
+    "id": "ZIMTCO-10",
+    "nome": "Tiramisu Coco | Zimaya - Perfume de Bolso 10ml",
+    "preco": 37.9,
+    "marca": "Zimaya",
+    "imagem": "Imagens/zim-tco-10.jpg"
   }
 ]

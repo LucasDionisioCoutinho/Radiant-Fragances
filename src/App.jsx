@@ -42,6 +42,22 @@ function App() {
     setCarrinho(novoCarrinho);
   }
 
+  function removerPorId(id) {
+    setCarrinho((prev) => prev.filter((item) => item.id !== id));
+  }
+
+  function alterarQuantidade(id, delta) {
+    setCarrinho((prev) =>
+      prev
+        .map((item) =>
+          item.id === id
+            ? { ...item, quantidade: item.quantidade + delta }
+            : item,
+        )
+        .filter((item) => item.quantidade > 0),
+    );
+  }
+
   return (
     <>
       <ScrollToTop />
@@ -85,7 +101,17 @@ function App() {
         />
         <Route path="/faq" element={<Faq />} />
         <Route path="/sobre" element={<Sobre />} />
-        <Route path="/promocoes" element={<PromocoesPage />} />
+        <Route
+          path="/promocoes"
+          element={
+            <PromocoesPage
+              carrinho={carrinho}
+              adicionarCarrinho={adicionarCarrinho}
+              removerPorId={removerPorId}
+              alterarQuantidade={alterarQuantidade}
+            />
+          }
+        />
         <Route
           path="/catalogo"
           element={

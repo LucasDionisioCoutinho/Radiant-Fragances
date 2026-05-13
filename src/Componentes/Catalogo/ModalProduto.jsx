@@ -7,7 +7,9 @@ function ModalProduto({ produto, produtos, fecharModal, adicionarCarrinho }) {
 
   if (!produto || !produtoAtual) return null;
 
-  const precoTotal = (Number(produtoAtual.preco) * quantidade).toFixed(2);
+  const desconto = produtoAtual.promocao ? (produtoAtual.desconto || 0) : 0;
+  const precoComDesconto = Number(produtoAtual.preco) * (1 - desconto / 100);
+  const precoTotal = (precoComDesconto * quantidade).toFixed(2);
 
   function selecionarDecant() {
     const idDecant = produtoAtual.id.replace("-100", "-10");
@@ -73,14 +75,55 @@ function ModalProduto({ produto, produtos, fecharModal, adicionarCarrinho }) {
               <button className="btn-mais" onClick={aumentarQtd}>+</button>
             </div>
 
-            <p className="modal-preco">R$ {precoTotal}</p>
+            {desconto > 0 && (
+              <p className="modal-preco-original">
+                R$ {(Number(produtoAtual.preco) * quantidade).toFixed(2)}
+              </p>
+            )}
+            <p className="modal-preco">
+              R$ {precoTotal}
+              {desconto > 0 && (
+                <span className="modal-badge-desconto"> -{desconto}% OFF</span>
+              )}
+            </p>
 
             <button
               className="btn-carrinho"
-              onClick={() => adicionarCarrinho({ ...produtoAtual, quantidade })}
+              onClick={() =>
+                adicionarCarrinho({
+                  ...produtoAtual,
+                  preco: precoComDesconto,
+                  quantidade,
+                })
+              }
             >
               Adicionar ao Carrinho
             </button>
+
+            {produtoAtual.familiasOlfativas && (
+              <div className="modal-familias">
+                {produtoAtual.familiasOlfativas.map((f) => (
+                  <span key={f} className="modal-familia-tag">{f}</span>
+                ))}
+              </div>
+            )}
+
+            {produtoAtual.notas && (
+              <div className="modal-notas">
+                <div className="modal-nota-grupo">
+                  <span className="modal-nota-label">Topo</span>
+                  <span className="modal-nota-itens">{produtoAtual.notas.topo.join(" · ")}</span>
+                </div>
+                <div className="modal-nota-grupo">
+                  <span className="modal-nota-label">Coração</span>
+                  <span className="modal-nota-itens">{produtoAtual.notas.coracao.join(" · ")}</span>
+                </div>
+                <div className="modal-nota-grupo">
+                  <span className="modal-nota-label">Base</span>
+                  <span className="modal-nota-itens">{produtoAtual.notas.base.join(" · ")}</span>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

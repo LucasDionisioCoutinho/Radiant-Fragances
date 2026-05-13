@@ -8,10 +8,9 @@ import "./promocoes.css";
 
 const WHATSAPP_NUMERO = "5511916776355";
 
-function Promocoes() {
+function Promocoes({ carrinho, adicionarCarrinho, removerPorId, alterarQuantidade }) {
   const produtosEmPromocao = produtosData.filter((p) => p.promocao);
 
-  const [carrinhoPromo, setCarrinhoPromo] = useState([]);
   const [cupom, setCupom] = useState("");
   const [cupomAplicado, setCupomAplicado] = useState(null);
   const [erroCupom, setErroCupom] = useState("");
@@ -48,34 +47,11 @@ function Promocoes() {
   }
 
   function adicionarPromo(produto) {
-    setCarrinhoPromo((prev) => {
-      const index = prev.findIndex((item) => item.id === produto.id);
-      if (index !== -1) {
-        const novo = [...prev];
-        novo[index] = {
-          ...novo[index],
-          quantidade: novo[index].quantidade + 1,
-        };
-        return novo;
-      }
-      return [...prev, { ...produto, quantidade: 1 }];
+    adicionarCarrinho({
+      ...produto,
+      preco: calcularPrecoComDesconto(produto),
+      quantidade: 1,
     });
-  }
-
-  function removerPromo(id) {
-    setCarrinhoPromo((prev) => prev.filter((item) => item.id !== id));
-  }
-
-  function alterarQuantidade(id, delta) {
-    setCarrinhoPromo((prev) =>
-      prev
-        .map((item) =>
-          item.id === id
-            ? { ...item, quantidade: item.quantidade + delta }
-            : item,
-        )
-        .filter((item) => item.quantidade > 0),
-    );
   }
 
   function aplicarCupom() {
@@ -91,23 +67,23 @@ function Promocoes() {
     }
   }
 
-  const subtotal = carrinhoPromo.reduce(
-    (acc, item) => acc + calcularPrecoComDesconto(item) * item.quantidade,
+  const subtotal = carrinho.reduce(
+    (acc, item) => acc + item.preco * item.quantidade,
     0,
   );
   const descontoCupom = cupomAplicado
     ? subtotal * (cupomAplicado.desconto / 100)
     : 0;
   const total = subtotal - descontoCupom;
-  const totalItens = carrinhoPromo.reduce((acc, i) => acc + i.quantidade, 0);
+  const totalItens = carrinho.reduce((acc, i) => acc + i.quantidade, 0);
 
   function finalizarPedido() {
-    if (carrinhoPromo.length === 0) return;
+    if (carrinho.length === 0) return;
 
-    const itens = carrinhoPromo
+    const itens = carrinho
       .map(
         (item) =>
-          `• ${item.nome} (${item.quantidade}x) — R$ ${(calcularPrecoComDesconto(item) * item.quantidade).toFixed(2)} (${item.desconto}% off)`,
+          `• ${item.nome} (${item.quantidade}x) — R$ ${(item.preco * item.quantidade).toFixed(2)}`,
       )
       .join("\n");
 
@@ -129,26 +105,24 @@ function Promocoes() {
 
   const conteudoCarrinho = (
     <>
-      {carrinhoPromo.length === 0 ? (
+      {carrinho.length === 0 ? (
         <p className="promo-carrinho-vazio">Nenhum item selecionado.</p>
       ) : (
         <>
           <ul className="promo-lista">
-            {carrinhoPromo.map((item) => (
+            {carrinho.map((item) => (
               <li key={item.id} className="promo-item">
                 <img src={item.imagem} alt={item.nome} width="50" />
                 <div className="promo-item-info">
                   <p>{item.nome}</p>
                   <p>
                     {item.quantidade}x — R${" "}
-                    {(calcularPrecoComDesconto(item) * item.quantidade).toFixed(
-                      2,
-                    )}
+                    {(item.preco * item.quantidade).toFixed(2)}
                   </p>
                 </div>
                 <button
                   className="promo-remover"
-                  onClick={() => removerPromo(item.id)}
+                  onClick={() => removerPorId(item.id)}
                 >
                   ✕
                 </button>
@@ -240,7 +214,7 @@ function Promocoes() {
         <section className="promo-grid">
           {produtosEmPromocao.map((produto) => {
             const precoFinal = calcularPrecoComDesconto(produto);
-            const noCarrinho = carrinhoPromo.find((i) => i.id === produto.id);
+            const noCarrinho = carrinho.find((i) => i.id === produto.id);
 
             return (
               <div className="promo-card" key={produto.id}>
@@ -301,7 +275,7 @@ function Promocoes() {
       </div>
 
       {/* BOTÃO FLUTUANTE MOBILE */}
-      {carrinhoPromo.length > 0 && (
+      {carrinho.length > 0 && (
         <button
           className="promo-carrinho-fab"
           onClick={() => setCarrinhoMobileAberto(true)}

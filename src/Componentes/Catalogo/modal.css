@@ -87,9 +87,74 @@
 
 .modal-preco {
     font-size: 1.8rem;
-
     font-weight: bold;
+    color: var(--CorLogo);
+}
 
+.modal-preco-original {
+    font-size: 1rem;
+    color: #999;
+    text-decoration: line-through;
+    margin-bottom: 2px;
+}
+
+.modal-badge-desconto {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #fff;
+    background: #e53935;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* FAMÍLIAS OLFATIVAS */
+
+.modal-familias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.modal-familia-tag {
+    background: var(--CorLogo);
+    color: var(--CorLogo);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* NOTAS OLFATIVAS */
+
+.modal-notas {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.modal-nota-grupo {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.82rem;
+}
+
+.modal-nota-label {
+    font-weight: 700;
+    color: var(--CorLogo);
+    min-width: 58px;
+    flex-shrink: 0;
+}
+
+.modal-nota-itens {
     color: var(--CorLogo);
 }
 

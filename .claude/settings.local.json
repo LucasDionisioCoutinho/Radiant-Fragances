@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\Gamer\\\\Radiant-Fragances\\\\src\\\\Data\\\\produtos.json\" | ConvertFrom-Json\\).Count)",
+      "PowerShell(Rename-Item \"C:\\\\Users\\\\Gamer\\\\Radiant-Fragances\\\\public\\\\Imagens\\\\afn-9pmb-100.jpg.jpg\" \"afn-9pmb-100.jpg\")",
+      "PowerShell(Rename-Item \"C:\\\\Users\\\\Gamer\\\\Radiant-Fragances\\\\public\\\\Imagens\\\\afn-9pmb-10.jpg.webp\" \"afn-9pmb-10.webp\")",
+      "Bash(find /c/Users/Gamer -name \"notas_catalogo*\" 2>/dev/null | head -10)",
+      "Read(//c/Users/Gamer/**)",
+      "Bash(python scripts/update_notas.py)"
+    ]
+  }
+}
