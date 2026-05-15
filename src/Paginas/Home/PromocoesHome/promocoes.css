@@ -136,8 +136,13 @@
 
 @media (max-width: 768px) {
   .perfumes-destaques {
-    grid-template-columns: 1fr;
-    padding: 40px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 16px;
+    gap: 16px;
+  }
+
+  .perfume-img img {
+    max-width: 160px;
   }
 
   .h1-destaque {
@@ -147,5 +152,37 @@
   .p-destaque {
     font-size: 12px;
     letter-spacing: 0.2em;
+  }
+
+  .perfume-nome {
+    font-size: 14px;
+  }
+
+  .perfume-marca {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .perfume-preco {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .perfumes-destaques {
+    padding: 20px 12px;
+    gap: 12px;
+  }
+
+  .perfume-img img {
+    max-width: 130px;
+  }
+
+  .perfume-nome {
+    font-size: 12px;
+  }
+
+  .perfume-preco {
+    font-size: 14px;
   }
 }

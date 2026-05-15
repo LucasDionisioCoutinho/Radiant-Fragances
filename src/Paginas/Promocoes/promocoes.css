@@ -371,6 +371,24 @@
   background: #f1c40f;
 }
 
+.btn-continuar-promo {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: transparent;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-continuar-promo:hover {
+  background: rgba(212, 175, 55, 0.1);
+}
+
 /* RESPONSIVO */
 @media (max-width: 900px) {
   .promo-layout {
@@ -467,6 +485,7 @@
   .promo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+    width: 100%;
   }
 
   /* CARD */
@@ -558,15 +577,43 @@ RESPONSIVIDADE
 }
 @media (max-width: 480px) {
 
+  .promo-layout {
+    padding: 12px;
+    gap: 16px;
+  }
+
   .promo-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
   }
 
   .promo-card img {
-    height: 240px;
+    height: 160px;
     object-fit: contain;
     background: #fff;
-    padding: 12px;
+    padding: 8px;
+  }
+
+  .promo-card-info {
+    padding: 10px;
+  }
+
+  .promo-card-info h3 {
+    font-size: 12px;
+  }
+
+  .promo-marca {
+    font-size: 10px;
+  }
+
+  .preco-final {
+    font-size: 14px;
+  }
+
+  .btn-add-promo {
+    font-size: 12px;
+    padding: 8px;
   }
 }
 

@@ -12,6 +12,8 @@
     --CorTextos:#989081;
 }
 
-body {
+html, body {
     background-color: black;
+    overflow-x: hidden;
+    max-width: 100%;
 }

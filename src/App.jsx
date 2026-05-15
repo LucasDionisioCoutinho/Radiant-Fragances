@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Footer from "./Componentes/Footer/footer.jsx";
@@ -20,6 +20,11 @@ import Catalogo from "./Componentes/Catalogo/Catalogo.jsx";
 function App() {
   const [carrinho, setCarrinho] = useState([]);
   const [carrinhoAberto, setCarrinhoAberto] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = carrinhoAberto ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [carrinhoAberto]);
 
   function adicionarCarrinho(produto) {
     setCarrinho((prev) => {

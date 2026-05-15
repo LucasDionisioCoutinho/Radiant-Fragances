@@ -141,6 +141,9 @@ function Carrinho({ carrinho, abrirCarrinho, fecharCarrinho, removerItem }) {
         <button className="btn-finalizar" onClick={finalizarPedido}>
           Finalizar Compra
         </button>
+        <button className="btn-continuar" onClick={fecharCarrinho}>
+          Continuar comprando
+        </button>
       </div>
     </div>
   );

@@ -256,24 +256,32 @@
   }
 
   .catalogo-grid {
-    grid-template-columns: 1fr;
-    padding: 30px 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px 12px;
+    gap: 16px;
+  }
+
+  .card-catalogo {
+    text-align: center;
   }
 
   .img-catalago {
-    height: 200px;
+    height: 150px;
   }
 
   .marca {
-    font-size: 12px;
+    font-size: 11px;
+    letter-spacing: 0.1em;
   }
 
   .h3-catalago {
-    font-size: 16px;
+    font-size: 13px;
+    margin-top: 4px;
   }
 
   .preco {
-    font-size: 18px;
+    font-size: 15px;
+    margin: 6px 0 12px;
   }
 
   .btn-todos,

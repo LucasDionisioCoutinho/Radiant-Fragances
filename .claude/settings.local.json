@@ -6,7 +6,8 @@
       "PowerShell(Rename-Item \"C:\\\\Users\\\\Gamer\\\\Radiant-Fragances\\\\public\\\\Imagens\\\\afn-9pmb-10.jpg.webp\" \"afn-9pmb-10.webp\")",
       "Bash(find /c/Users/Gamer -name \"notas_catalogo*\" 2>/dev/null | head -10)",
       "Read(//c/Users/Gamer/**)",
-      "Bash(python scripts/update_notas.py)"
+      "Bash(python scripts/update_notas.py)",
+      "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); const promo = p.filter\\(x => x.promocao\\); console.log\\(JSON.stringify\\(promo.slice\\(0,3\\), null, 2\\)\\)\")"
     ]
   }
 }

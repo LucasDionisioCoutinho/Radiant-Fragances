@@ -167,6 +167,12 @@ function Promocoes({ carrinho, adicionarCarrinho, removerPorId, alterarQuantidad
           <button className="btn-finalizar-promo" onClick={finalizarPedido}>
             Finalizar no WhatsApp
           </button>
+          <button
+            className="btn-continuar-promo"
+            onClick={() => setCarrinhoMobileAberto(false)}
+          >
+            Continuar comprando
+          </button>
         </>
       )}
     </>
@@ -224,11 +230,9 @@ function Promocoes({ carrinho, adicionarCarrinho, removerPorId, alterarQuantidad
                   <p className="promo-marca">{produto.marca}</p>
                   <h3>{produto.nome}</h3>
                   <div className="promo-precos">
-                    {produto.precoOriginal && (
-                      <span className="preco-original">
-                        R$ {produto.precoOriginal.toFixed(2)}
-                      </span>
-                    )}
+                    <span className="preco-original">
+                      R$ {produto.preco.toFixed(2)}
+                    </span>
                     <span className="preco-final">
                       R$ {precoFinal.toFixed(2)}
                     </span>

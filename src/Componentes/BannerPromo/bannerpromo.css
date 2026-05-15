@@ -45,16 +45,18 @@
 /* BANNER GRANDE */
 .banner-grande {
   width: 100%;
-  min-height: 350px;
-  background-size: cover;
-  background-position: center;
+  min-height: 420px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000;
   position: relative;
 }
 
 .banner-grande-overlay {
   width: 100%;
-  min-height: 350px;
-  background: rgba(0, 0, 0, 0.65);
+  min-height: 420px;
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,6 +77,92 @@
   font-size: 18px;
   color: #ccc;
   margin-bottom: 20px;
+}
+
+/* RESPONSIVO BANNER */
+@media (max-width: 768px) {
+  .banner-grande {
+    min-height: 280px;
+    background-size: contain;
+  }
+
+  .banner-grande-overlay {
+    min-height: 280px;
+    padding: 30px 16px;
+  }
+
+  .banner-grande-overlay h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  .banner-grande-overlay p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .banner-grande-cupom {
+    font-size: 13px;
+    padding: 6px 14px;
+    margin-bottom: 16px;
+  }
+
+  .banner-grande-timer .timer-bloco {
+    min-width: 54px;
+    padding: 8px 12px;
+  }
+
+  .banner-grande-timer .timer-bloco span {
+    font-size: 22px;
+  }
+
+  .banner-grande-timer .timer-separador {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-grande {
+    min-height: 220px;
+    background-size: contain;
+  }
+
+  .banner-grande-overlay {
+    min-height: 220px;
+    padding: 24px 12px;
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  .banner-grande-overlay h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .banner-grande-overlay p {
+    font-size: 13px;
+  }
+
+  .banner-grande-timer {
+    gap: 4px;
+  }
+
+  .banner-grande-timer .timer-bloco {
+    min-width: 44px;
+    padding: 6px 8px;
+  }
+
+  .banner-grande-timer .timer-bloco span {
+    font-size: 18px;
+  }
+
+  .banner-grande-timer .timer-bloco small {
+    font-size: 9px;
+  }
+
+  .banner-grande-timer .timer-separador {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
 }
 
 .banner-grande-cupom {

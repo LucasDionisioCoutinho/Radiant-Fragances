@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import produtosData from "../../Data/produtos.json";
 import CardProduto from "./CardProduto";
 import ModalProduto from "./ModalProduto";
@@ -12,6 +12,11 @@ function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
   const [busca, setBusca] = useState("");
   const [produtosFiltrados, setProdutosFiltrados] = useState(perfumes100ml);
+
+  useEffect(() => {
+    document.body.style.overflow = produtoSelecionado ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [produtoSelecionado]);
 
   function abrirModal(produto) { setProdutoSelecionado(produto); }
   function fecharModal() { setProdutoSelecionado(null); }

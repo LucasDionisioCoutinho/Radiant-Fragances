@@ -1,5 +1,6 @@
 [
   { "codigo": "RADIANT10", "desconto": 10 },
   { "codigo": "MAES15", "desconto": 15 },
-  { "codigo": "PAIS20", "desconto": 20 }
+  { "codigo": "", "desconto": 20 },
+  { "codigo": "AMOR20", "desconto": 20 }
 ]

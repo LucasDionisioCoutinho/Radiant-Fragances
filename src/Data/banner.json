@@ -1,8 +1,8 @@
 {
-  "ativo": false,
-  "titulo": "Dia dos Pais",
+  "ativo": true,
+  "titulo": "Dia dos Namorados",
   "subtitulo": "Presentes que marcam para sempre",
-  "dataFim": "2026-05-09T23:59:59",
-  "imagem": "Imagens/asde-10.jpg",
-  "cupom": "PAIS20"
+  "dataFim": "2026-06-11T23:59:59",
+  "imagem": "Imagens/diaDosNamoradoss.jpg",
+  "cupom": "amor20"
 }

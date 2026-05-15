@@ -39,11 +39,9 @@ function Promocoes() {
             <h3 className="perfume-nome">{perfume.nome}</h3>
 
             <div className="perfume-precos">
-              {perfume.precoOriginal && (
-                <span className="perfume-preco-original">
-                  R$ {perfume.precoOriginal.toFixed(2)}
-                </span>
-              )}
+              <span className="perfume-preco-original">
+                R$ {perfume.preco.toFixed(2)}
+              </span>
               <span className="perfume-preco">
                 R$ {calcularPrecoFinal(perfume).toFixed(2)}
               </span>
