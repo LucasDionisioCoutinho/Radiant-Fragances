@@ -62,7 +62,7 @@ function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
             <input
               type="text"
               className="input-catalago"
-              placeholder="Buscar..."
+              placeholder="Busque por nome ou marca.."
               value={busca}
               onChange={(e) => setBusca(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && filtrarBusca()}
