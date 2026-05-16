@@ -47,6 +47,12 @@ function Footer() {
                   WhatsApp: (11) 916776355
                 </a>
               </li>
+              <li>
+                <a href="https://www.instagram.com/radiantfragances?igsh=bXNlNG9sMm03MG90&utm_source=qr" target="_blank" rel="noreferrer">
+                  <i className="fa-brands fa-instagram" style={{ marginRight: "6px" }}></i>
+                  @radiantfragances
+                </a>
+              </li>
               <li>Seg a Sex, 9h às 18h</li>
             </ul>
           </div>

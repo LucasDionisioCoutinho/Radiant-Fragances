@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Footer from "./Componentes/Footer/footer.jsx";
 import Menu from "./Componentes/Menu/menu.jsx";
+import WhatsAppFab from "./Componentes/WhatsAppFab/WhatsAppFab.jsx";
 import BannerPromo from "./Componentes/BannerPromo/BannerPromo.jsx";
 import ScrollToTop from "./Componentes/ScrollToTop/ScrollToTop.jsx";
 import Carrinho from "./Componentes/Catalogo/Carrinho.jsx";
@@ -129,6 +130,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <WhatsAppFab />
     </>
   );
 }
