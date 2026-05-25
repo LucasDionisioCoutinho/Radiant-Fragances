@@ -3,7 +3,7 @@
     "id": "ASD-100",
     "nome": "Asad | Lattafa - Eau de Parfum 100ml",
     "preco": 289.9,
-    "precoOriginal": 280.0,
+    "precoOriginal": 280,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
@@ -26,7 +26,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ASD-10",
@@ -61,7 +62,8 @@
         "Âmbar",
         "Vetiver"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ASDB-10",
@@ -74,7 +76,7 @@
     "id": "ASDE-100",
     "nome": "Asad Elixir | Lattafa - Eua de Parfum 100ml",
     "preco": 329.9,
-    "precoOriginal": 400.0,
+    "precoOriginal": 400,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
@@ -97,7 +99,8 @@
         "Cashmeran",
         "Âmbar Seco"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ASDE-10",
@@ -110,7 +113,7 @@
     "id": "ASDZ-100",
     "nome": "Asad Zanzibar | Lattafa - Eua de Parfum 100ml",
     "preco": 239.9,
-    "precoOriginal": 280.0,
+    "precoOriginal": 280,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
@@ -129,7 +132,8 @@
         "Baunilha",
         "Incenso"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ASDZ-10",
@@ -164,7 +168,8 @@
         "Vetiver",
         "Labdanum"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "FKG-10",
@@ -177,7 +182,7 @@
     "id": "FKB-100",
     "nome": "Fakhar Black | Lattafa - Eua de Parfum 100ml",
     "preco": 289.9,
-    "precoOriginal": 280.0,
+    "precoOriginal": 280,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
@@ -202,7 +207,8 @@
         "Amberwood",
         "Vetiver"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "FKB-10",
@@ -215,7 +221,7 @@
     "id": "FKP-100",
     "nome": "Fakhar Platin | Lattafa - Eua de Parfum 100ml",
     "preco": 269.9,
-    "precoOriginal": 280.0,
+    "precoOriginal": 280,
     "promocao": true,
     "desconto": 10,
     "marca": "Lattafa",
@@ -236,7 +242,8 @@
         "Palo Santo",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "FKP-10",
@@ -272,7 +279,8 @@
         "Sândalo",
         "Ambroxan"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "FKR-10",
@@ -303,7 +311,8 @@
         "Sândalo",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "YARA-10",
@@ -333,7 +342,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "YRC-10",
@@ -364,7 +374,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "YRE-10",
@@ -395,7 +406,8 @@
         "Almíscar",
         "Cashmeran"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "YRT-10",
@@ -426,7 +438,8 @@
         "Cashmeran",
         "Patchouli"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "YRM-10",
@@ -459,7 +472,8 @@
         "Mirra",
         "Benjoim"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "KMR-10",
@@ -492,7 +506,8 @@
         "Benjoim",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "KMQ-10",
@@ -526,7 +541,8 @@
         "Tonka",
         "Benjoim"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "KMD-10",
@@ -555,7 +571,8 @@
         "Âmbar",
         "Madeiras Orientais"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "WZR-10",
@@ -584,7 +601,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "SFR-10",
@@ -614,7 +632,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "AMR-10",
@@ -646,7 +665,8 @@
         "Baunilha",
         "Tonka"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "MMI-10",
@@ -676,7 +696,8 @@
         "Sândalo",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "BFH-10",
@@ -706,7 +727,8 @@
         "Baunilha",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "BNB-10",
@@ -735,7 +757,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "BS-10",
@@ -764,7 +787,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "BAT-10",
@@ -793,7 +817,8 @@
         "Sândalo",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "BG-10",
@@ -822,7 +847,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "THG-10",
@@ -851,7 +877,8 @@
         "Cedro",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "THS-10",
@@ -880,7 +907,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "RYE-10",
@@ -910,7 +938,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "EME-10",
@@ -940,7 +969,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "AFF-10",
@@ -968,7 +998,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "sbh-10",
@@ -997,7 +1028,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "sbs-10",
@@ -1026,7 +1058,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "drt-10",
@@ -1055,7 +1088,8 @@
         "Oud",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "RYA-10",
@@ -1084,7 +1118,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "AZF-10",
@@ -1113,7 +1148,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ABR-10",
@@ -1150,7 +1186,8 @@
         "Patchouli",
         "Labdanum"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "CNI-10",
@@ -1180,7 +1217,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "CNE-10",
@@ -1209,7 +1247,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "CNW-10",
@@ -1237,7 +1276,8 @@
         "Resina de Abeto",
         "Cedro"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "CNU-10",
@@ -1272,7 +1312,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "CDN-10",
@@ -1301,7 +1342,8 @@
         "Ambroxan",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "CNM-10",
@@ -1331,7 +1373,8 @@
         "Vetiver",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "CNMT-10",
@@ -1365,7 +1408,8 @@
         "Sândalo",
         "Cedro"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "CNS-10",
@@ -1393,7 +1437,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "LQB-10",
@@ -1421,7 +1466,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "SCG-10",
@@ -1450,7 +1496,8 @@
         "Almíscar",
         "Baunilha"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "VCF-10",
@@ -1478,7 +1525,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "VCB-10",
@@ -1507,7 +1555,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "VNO-100",
@@ -1528,7 +1577,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "AFN9AM-100",
@@ -1550,7 +1600,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "AFN9AM-10",
@@ -1579,7 +1630,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "AFN9PMB-10",
@@ -1608,7 +1660,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "AFN9PMEL-10",
@@ -1636,7 +1689,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "AFN9PMF-10",
@@ -1664,7 +1718,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "AFNKIA-10",
@@ -1692,7 +1747,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "AFNTUR-10",
@@ -1723,7 +1779,8 @@
         "Âmbar",
         "Oud Delicado"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHFRE-10",
@@ -1752,7 +1809,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ALHLEI-10",
@@ -1781,7 +1839,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ALHOLA-10",
@@ -1809,7 +1868,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHCON-10",
@@ -1837,7 +1897,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHHAR-10",
@@ -1866,7 +1927,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHOUD-10",
@@ -1895,7 +1957,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHAOC-10",
@@ -1927,7 +1990,8 @@
         "Almíscar",
         "Notas Amadeiradas"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHAOG-10",
@@ -1956,7 +2020,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHAOR-10",
@@ -1984,7 +2049,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHAOW-10",
@@ -2012,7 +2078,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHLAC-10",
@@ -2041,7 +2108,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHLAI-10",
@@ -2069,7 +2137,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHMB-10",
@@ -2098,7 +2167,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHMR-10",
@@ -2127,7 +2197,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHPAL-10",
@@ -2156,7 +2227,8 @@
         "Baunilha",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHPCR-10",
@@ -2185,7 +2257,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALHPER-10",
@@ -2213,7 +2286,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALHPFS-10",
@@ -2242,7 +2316,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ALWEQA-10",
@@ -2271,7 +2346,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ALWSHA-10",
@@ -2300,7 +2376,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ARMBLI-10",
@@ -2328,7 +2405,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ARMIMP-10",
@@ -2357,7 +2435,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMLIO-10",
@@ -2386,7 +2465,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMOAD-10",
@@ -2414,7 +2494,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ARMOCA-10",
@@ -2442,7 +2523,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMOMH-10",
@@ -2470,7 +2552,8 @@
         "Cedro",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMOLI-10",
@@ -2498,7 +2581,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMOMA-10",
@@ -2527,7 +2611,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ARMOMS-10",
@@ -2555,7 +2640,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ARMOWI-10",
@@ -2583,7 +2669,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHABLU-10",
@@ -2611,7 +2698,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "BHACHO-10",
@@ -2640,7 +2728,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "BHAPEA-10",
@@ -2668,7 +2757,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHAPH1-10",
@@ -2696,7 +2786,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHAPH2-10",
@@ -2725,7 +2816,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHAVBE-10",
@@ -2754,7 +2846,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHAVCA-10",
@@ -2783,7 +2876,8 @@
         "Âmbar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "BHAVKA-10",
@@ -2812,7 +2906,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "BHAVRI-10",
@@ -2840,7 +2935,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "FRACHA-10",
@@ -2868,7 +2964,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "FRACOC-10",
@@ -2897,7 +2994,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "FRADIA-10",
@@ -2925,7 +3023,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "FRALUS-10",
@@ -2953,7 +3052,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "FRASPM-10",
@@ -2981,7 +3081,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "FRASPW-10",
@@ -3009,7 +3110,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "FRAVBI-10",
@@ -3037,7 +3139,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "FRAVBF-10",
@@ -3065,7 +3168,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "FRAVSA-10",
@@ -3093,7 +3197,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "HALMAN-10",
@@ -3122,7 +3227,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "HALMHE-10",
@@ -3150,7 +3256,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "HALMX-10",
@@ -3178,7 +3285,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "HALWIS-10",
@@ -3206,7 +3314,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATANG-10",
@@ -3236,7 +3345,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATATH-10",
@@ -3265,7 +3375,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATDAL-10",
@@ -3294,7 +3405,8 @@
         "Âmbar",
         "Tonka"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATECL-10",
@@ -3323,7 +3435,8 @@
         "Tonka",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATECLB-10",
@@ -3352,7 +3465,8 @@
         "Tonka",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATECLP-10",
@@ -3381,7 +3495,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATHER-10",
@@ -3410,7 +3525,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATJAS-10",
@@ -3440,7 +3556,8 @@
         "Sândalo",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATKOA-10",
@@ -3468,7 +3585,8 @@
         "Baunilha",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATLAY-10",
@@ -3497,7 +3615,8 @@
         "Almíscar",
         "Cedro"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "LATMAB-10",
@@ -3527,7 +3646,8 @@
         "Tonka",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATMAG-10",
@@ -3556,7 +3676,8 @@
         "Cedro",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "LATMAL-10",
@@ -3586,7 +3707,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATNEK-10",
@@ -3615,7 +3737,8 @@
         "Almíscar",
         "Cedro"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATPET-10",
@@ -3644,7 +3767,8 @@
         "Almíscar",
         "Madeiras Negras"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATSMN-10",
@@ -3672,7 +3796,8 @@
         "Baunilha",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "LATTKF-10",
@@ -3701,7 +3826,8 @@
         "Almíscar",
         "Cedro"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "LATTKM-10",
@@ -3730,7 +3856,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "LATVIC-10",
@@ -3758,7 +3885,8 @@
         "Baunilha",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAHDEL-10",
@@ -3786,7 +3914,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAHDEF-10",
@@ -3815,7 +3944,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHJLA-10",
@@ -3844,7 +3974,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHJLV-10",
@@ -3872,7 +4003,8 @@
         "Madeiras",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAHPHI-10",
@@ -3901,7 +4033,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAHRSE-10",
@@ -3929,7 +4062,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHSAL-10",
@@ -3957,7 +4091,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHSAI-10",
@@ -3986,7 +4121,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHSCM-10",
@@ -4014,7 +4150,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAHVIC-10",
@@ -4042,7 +4179,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAWFBA-10",
@@ -4070,7 +4208,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "MAWFMA-10",
@@ -4098,7 +4237,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "MAWSYM-10",
@@ -4127,7 +4267,8 @@
         "Oud",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ORIANO-10",
@@ -4156,7 +4297,8 @@
         "Sândalo",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ORIOSA-10",
@@ -4185,7 +4327,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "ORIRBL-10",
@@ -4214,7 +4357,8 @@
         "Almíscar",
         "Sândalo"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "ORIVGO-10",
@@ -4243,7 +4387,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "PARMAB-10",
@@ -4272,7 +4417,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "PARMAM-10",
@@ -4301,7 +4447,8 @@
         "Almíscar",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "unissex"
   },
   {
     "id": "PARMM2-10",
@@ -4329,7 +4476,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "RASHWB-10",
@@ -4357,7 +4505,8 @@
         "Almíscar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "RASHWE-10",
@@ -4385,7 +4534,8 @@
         "Baunilha",
         "Âmbar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "RASHWH-10",
@@ -4413,7 +4563,8 @@
         "Âmbar",
         "Madeiras"
       ]
-    }
+    },
+    "genero": "masculino"
   },
   {
     "id": "RASHWM-10",
@@ -4441,7 +4592,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ZIMTCA-10",
@@ -4469,7 +4621,8 @@
         "Âmbar",
         "Almíscar"
       ]
-    }
+    },
+    "genero": "feminino"
   },
   {
     "id": "ZIMTCO-10",

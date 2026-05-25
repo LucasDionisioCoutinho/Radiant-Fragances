@@ -12,6 +12,7 @@ function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
   const [busca, setBusca] = useState("");
   const [produtosFiltrados, setProdutosFiltrados] = useState(perfumes100ml);
+  const [filtroAtivo, setFiltroAtivo] = useState("todos");
 
   useEffect(() => {
     document.body.style.overflow = produtoSelecionado ? "hidden" : "";
@@ -27,17 +28,19 @@ function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
     setCarrinhoAberto(true);
   }
 
-  function filtrarMaisVendidos() {
-    setProdutosFiltrados(perfumes100ml.filter((p) => p.maisVendido));
+  function aplicarFiltro(filtro) {
+    setFiltroAtivo(filtro);
+    setBusca("");
+    if (filtro === "todos") setProdutosFiltrados(perfumes100ml);
+    else if (filtro === "masculino") setProdutosFiltrados(perfumes100ml.filter((p) => p.genero === "masculino"));
+    else if (filtro === "feminino") setProdutosFiltrados(perfumes100ml.filter((p) => p.genero === "feminino"));
+    else if (filtro === "unissex") setProdutosFiltrados(perfumes100ml.filter((p) => p.genero === "unissex"));
+    else if (filtro === "maisvendido") setProdutosFiltrados(perfumes100ml.filter((p) => p.maisVendido));
+    else if (filtro === "lancamentos") setProdutosFiltrados(perfumes100ml.filter((p) => p.lancamentos));
   }
-
-  function filtrarLancamentos() {
-    setProdutosFiltrados(perfumes100ml.filter((p) => p.lancamentos));
-  }
-
-  function mostrarTodos() { setProdutosFiltrados(perfumes100ml); }
 
   function filtrarBusca() {
+    setFiltroAtivo("busca");
     const termo = busca.toLowerCase();
     setProdutosFiltrados(
       perfumes100ml.filter(
@@ -67,14 +70,19 @@ function Catalogo({ adicionarCarrinho, setCarrinhoAberto }) {
               onChange={(e) => setBusca(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && filtrarBusca()}
             />
+            <button className="btn-buscar" onClick={filtrarBusca}>Buscar</button>
           </div>
-          <button className="btn-buscar" onClick={filtrarBusca}>Buscar</button>
         </div>
 
         <div className="divs-btns">
-          <button className="btn-todos" onClick={mostrarTodos}>Todos</button>
-          <button className="btn-maisvendido" onClick={filtrarMaisVendidos}>Mais Vendidos</button>
-          <button className="btn-lancamentos" onClick={filtrarLancamentos}>Lançamentos</button>
+          <button className={`btn-filtro ${filtroAtivo === "todos" ? "ativo" : ""}`} onClick={() => aplicarFiltro("todos")}>Todos</button>
+          <button className={`btn-filtro ${filtroAtivo === "masculino" ? "ativo" : ""}`} onClick={() => aplicarFiltro("masculino")}>Masculino</button>
+          <button className={`btn-filtro ${filtroAtivo === "feminino" ? "ativo" : ""}`} onClick={() => aplicarFiltro("feminino")}>Feminino</button>
+          <button className={`btn-filtro ${filtroAtivo === "unissex" ? "ativo" : ""}`} onClick={() => aplicarFiltro("unissex")}>Unissex</button>
+        </div>
+        <div className="divs-btns divs-btns-secundario">
+          <button className={`btn-filtro ${filtroAtivo === "maisvendido" ? "ativo" : ""}`} onClick={() => aplicarFiltro("maisvendido")}>Mais Vendidos</button>
+          <button className={`btn-filtro ${filtroAtivo === "lancamentos" ? "ativo" : ""}`} onClick={() => aplicarFiltro("lancamentos")}>Lançamentos</button>
         </div>
       </div>
 

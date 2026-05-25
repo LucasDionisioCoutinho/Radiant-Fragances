@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const SITE_URL = "https://radiantfragrances.com.br";
-const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+const OG_IMAGE = `${SITE_URL}/Imagens/banner-seo.png`;
 
 const keywordsPorPagina = {
   default:

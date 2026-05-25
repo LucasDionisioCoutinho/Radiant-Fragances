@@ -13,14 +13,17 @@
   font-size: 30px;
   color: var(--CorLogo);
   font-family: var(--FonteTextos);
-  padding: 16px;
-  margin-top: 30px;
+  padding: 8px;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .h1-catalago {
   font-size: 50px;
   color: var(--CorLogo);
   font-family: var(--FonteTextos);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* INPUT */
@@ -29,7 +32,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   width: 100%;
   padding: 0 20px;
   box-sizing: border-box;
@@ -43,9 +45,9 @@
 
 .input-catalago {
   width: 100%;
-  padding: 20px 20px 20px 60px;
+  padding: 14px 110px 14px 50px;
   letter-spacing: 0.12em;
-  margin: 24px auto;
+  margin: 14px auto;
 
   border: 0.5px solid var(--CorLogo);
   box-sizing: border-box;
@@ -87,38 +89,67 @@
 .divs-btns {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  padding: 0 20px;
+  gap: 8px;
+  flex-wrap: nowrap;
+  padding: 0 16px;
+  margin-bottom: 8px;
+  overflow-x: auto;
 }
 
-.btn-todos,
-.btn-maisvendido,
-.btn-lancamentos,
-.btn-buscar {
-  display: inline-block;
-  padding: 1rem 2.5rem;
-  border: 1px solid var(--CorLogo);
+.divs-btns-secundario {
+  margin-top: 6px;
+  margin-bottom: 0;
+  flex-wrap: nowrap;
+}
+
+.btn-filtro {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.6rem 1.5rem;
+  border: 1.5px solid var(--CorLogo);
   color: var(--CorLogo);
   font-family: var(--FonteTextos);
-  font-size: 1.03rem;
-  letter-spacing: 0.15em;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition:
-    background-color 300ms ease,
-    color 300ms ease;
+  transition: background-color 200ms ease, color 200ms ease;
   background-color: transparent;
   cursor: pointer;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.btn-filtro:hover {
+  background-color: #d4af371a;
+}
+
+.btn-filtro.ativo {
+  background-color: var(--CorLogo);
+  color: #000;
+  font-weight: bold;
 }
 
 .btn-buscar {
-  width: auto;
-  min-width: 140px;
+  position: absolute;
+  right: 0;
+  top: 14px;
+  bottom: 14px;
+  padding: 0 1.2rem;
+  border: none;
+  border-left: 0.5px solid var(--CorLogo);
+  color: var(--CorLogo);
+  font-family: var(--FonteTextos);
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background-color 200ms ease;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
-.btn-todos:hover,
-.btn-maisvendido:hover,
-.btn-lancamentos:hover,
 .btn-buscar:hover {
   background-color: #d4af371a;
 }
@@ -205,16 +236,6 @@
     font-size: 24px;
   }
 
-  .input-wrapper {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btn-buscar {
-    width: 100%;
-    max-width: 600px;
-  }
-
   .catalogo-grid {
     padding: 40px 20px;
     gap: 25px;
@@ -224,11 +245,9 @@
     height: 220px;
   }
 
-  .btn-todos,
-  .btn-maisvendido,
-  .btn-lancamentos {
-    width: 100%;
-    max-width: 350px;
+  .btn-filtro {
+    font-size: 0.82rem;
+    padding: 0.55rem 1.2rem;
   }
 }
 
@@ -247,12 +266,28 @@
   }
 
   .input-catalago {
-    padding: 16px 16px 16px 50px;
+    padding: 14px 90px 14px 44px;
     font-size: 14px;
   }
 
   .input-catalago::placeholder {
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .btn-buscar {
+    font-size: 0.75rem;
+    padding: 0 0.9rem;
+  }
+
+  .divs-btns {
+    gap: 6px;
+    padding: 0 8px;
+  }
+
+  .btn-filtro {
+    font-size: 0.72rem;
+    padding: 0.45rem 0.8rem;
+    letter-spacing: 0.04em;
   }
 
   .catalogo-grid {
@@ -282,14 +317,5 @@
   .preco {
     font-size: 15px;
     margin: 6px 0 12px;
-  }
-
-  .btn-todos,
-  .btn-maisvendido,
-  .btn-lancamentos,
-  .btn-buscar {
-    width: 100%;
-    font-size: 0.9rem;
-    padding: 14px;
   }
 }
