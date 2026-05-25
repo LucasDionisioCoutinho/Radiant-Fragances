@@ -219,7 +219,7 @@
   },
   {
     "id": "FKP-100",
-    "nome": "Fakhar Platin | Lattafa - Eua de Parfum 100ml",
+    "nome": "Fakhar Platinum | Lattafa - Eua de Parfum 100ml",
     "preco": 269.9,
     "precoOriginal": 280,
     "promocao": true,
@@ -247,7 +247,7 @@
   },
   {
     "id": "FKP-10",
-    "nome": "Fakhar Platin | Lattafa - Perfume de Bolso 10ml",
+    "nome": "Fakhar Platinum | Lattafa - Perfume de Bolso 10ml",
     "preco": 35.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkp-10.jpg"
@@ -284,7 +284,7 @@
   },
   {
     "id": "FKR-10",
-    "nome": "Fakhar Platin | Lattafa - Perfume de Bolso 10ml",
+    "nome": "Fakhar Platinum | Lattafa - Perfume de Bolso 10ml",
     "preco": 30.9,
     "marca": "Lattafa",
     "imagem": "Imagens/fkr-10.jpg"
@@ -1374,7 +1374,7 @@
         "Almíscar"
       ]
     },
-    "genero": "feminino"
+    "genero": "unissex"
   },
   {
     "id": "CNMT-10",
@@ -1672,7 +1672,7 @@
   },
   {
     "id": "AFN9PMF-100",
-    "nome": "9PM Femme Purple | Afnan - Eua de Parfum 100ml",
+    "nome": "9PM Pour Femme | Afnan - Eua de Parfum 100ml",
     "preco": 309.9,
     "marca": "Afnan",
     "imagem": "Imagens/afn-9pmf-100.jpg",
@@ -1694,7 +1694,7 @@
   },
   {
     "id": "AFN9PMF-10",
-    "nome": "9PM Femme Purple | Afnan - Perfume de Bolso 10ml",
+    "nome": "9PM Pour Femme | Afnan - Perfume de Bolso 10ml",
     "preco": 39.9,
     "marca": "Afnan",
     "imagem": "Imagens/afn-9pmf-10.jpg"
@@ -3035,7 +3035,7 @@
   },
   {
     "id": "FRASPM-100",
-    "nome": "Spectre Marrom | French Avenue - Eua de Parfum 80ml",
+    "nome": "Spectre Brown | French Avenue - Eua de Parfum 80ml",
     "preco": 319.9,
     "marca": "French Avenue",
     "imagem": "Imagens/fra-spm-100.jpg",
@@ -3057,7 +3057,7 @@
   },
   {
     "id": "FRASPM-10",
-    "nome": "Spectre Marrom | French Avenue - Perfume de Bolso 10ml",
+    "nome": "Spectre Brown | French Avenue - Perfume de Bolso 10ml",
     "preco": 41.9,
     "marca": "French Avenue",
     "imagem": "Imagens/fra-spm-10.jpg"
@@ -3122,7 +3122,7 @@
   },
   {
     "id": "FRAVBF-100",
-    "nome": "Vulcan Black Friday | French Avenue - Eua de Parfum 100ml",
+    "nome": "Vulcan Black | French Avenue - Eua de Parfum 100ml",
     "preco": 389.9,
     "marca": "French Avenue",
     "imagem": "Imagens/fra-vbf-100.jpg",
@@ -3144,7 +3144,7 @@
   },
   {
     "id": "FRAVBF-10",
-    "nome": "Vulcan Black Friday | French Avenue - Perfume de Bolso 10ml",
+    "nome": "Vulcan Black | French Avenue - Perfume de Bolso 10ml",
     "preco": 50.9,
     "marca": "French Avenue",
     "imagem": "Imagens/fra-vbf-10.jpg"
@@ -3808,7 +3808,7 @@
   },
   {
     "id": "LATTKM-100",
-    "nome": "The Kingdom | Lattafa - Eua de Parfum 100ml",
+    "nome": "The Kingdom For Men | Lattafa - Eua de Parfum 100ml",
     "preco": 299.9,
     "marca": "Lattafa",
     "imagem": "Imagens/lat-tkm-100.jpg",
@@ -3831,7 +3831,7 @@
   },
   {
     "id": "LATTKM-10",
-    "nome": "The Kingdom | Lattafa - Perfume de Bolso 10ml",
+    "nome": "The Kingdom For Men | Lattafa - Perfume de Bolso 10ml",
     "preco": 38.9,
     "marca": "Lattafa",
     "imagem": "Imagens/lat-tkm-10.jpg"
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ORIRBL-100",
-    "nome": "Luxury Royal Bleu | Orientica - Eua de Parfum 80ml",
+    "nome": "Royal Bleu | Orientica - Eua de Parfum 80ml",
     "preco": 539.9,
     "marca": "Orientica",
     "imagem": "Imagens/ori-rbl-100.jpg",
@@ -4332,7 +4332,7 @@
   },
   {
     "id": "ORIRBL-10",
-    "nome": "Luxury Royal Bleu | Orientica - Perfume de Bolso 10ml",
+    "nome": "Royal Bleu | Orientica - Perfume de Bolso 10ml",
     "preco": 69.9,
     "marca": "Orientica",
     "imagem": "Imagens/ori-rbl-10.jpg"
