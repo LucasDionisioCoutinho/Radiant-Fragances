@@ -9,7 +9,8 @@
       "Bash(python scripts/update_notas.py)",
       "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); const promo = p.filter\\(x => x.promocao\\); console.log\\(JSON.stringify\\(promo.slice\\(0,3\\), null, 2\\)\\)\")",
       "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); console.log\\('Total:', p.length\\); console.log\\('Sample 100ml IDs and names:'\\); p.filter\\(x=>x.id.endsWith\\('-100'\\)\\).slice\\(0,20\\).forEach\\(x=>console.log\\(x.id, '|', x.nome\\)\\)\")",
-      "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); p.filter\\(x=>x.id.endsWith\\('-100'\\)\\).forEach\\(x=>console.log\\(x.id, '|', x.nome\\)\\)\")"
+      "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); p.filter\\(x=>x.id.endsWith\\('-100'\\)\\).forEach\\(x=>console.log\\(x.id, '|', x.nome\\)\\)\")",
+      "Bash(npm i *)"
     ]
   }
 }

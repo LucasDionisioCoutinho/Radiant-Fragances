@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import Footer from "./Componentes/Footer/footer.jsx";
 import Menu from "./Componentes/Menu/menu.jsx";
@@ -131,6 +132,7 @@ function App() {
 
       <Footer />
       <WhatsAppFab />
+      <Analytics />
     </>
   );
 }
