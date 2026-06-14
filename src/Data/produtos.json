@@ -1780,7 +1780,8 @@
         "Oud Delicado"
       ]
     },
-    "genero": "feminino"
+    "genero": "feminino",
+    "lancamentos": true
   },
   {
     "id": "ALHFRE-10",
@@ -1840,7 +1841,8 @@
         "Almíscar"
       ]
     },
-    "genero": "masculino"
+    "genero": "masculino",
+    "lancamentos": true
   },
   {
     "id": "ALHOLA-10",
@@ -4477,7 +4479,8 @@
         "Madeiras"
       ]
     },
-    "genero": "masculino"
+    "genero": "masculino",
+    "lancamentos": true
   },
   {
     "id": "RASHWB-10",
