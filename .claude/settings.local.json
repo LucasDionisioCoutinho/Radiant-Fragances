@@ -10,7 +10,14 @@
       "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); const promo = p.filter\\(x => x.promocao\\); console.log\\(JSON.stringify\\(promo.slice\\(0,3\\), null, 2\\)\\)\")",
       "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); console.log\\('Total:', p.length\\); console.log\\('Sample 100ml IDs and names:'\\); p.filter\\(x=>x.id.endsWith\\('-100'\\)\\).slice\\(0,20\\).forEach\\(x=>console.log\\(x.id, '|', x.nome\\)\\)\")",
       "Bash(node -e \"const p = require\\('./src/Data/produtos.json'\\); p.filter\\(x=>x.id.endsWith\\('-100'\\)\\).forEach\\(x=>console.log\\(x.id, '|', x.nome\\)\\)\")",
-      "Bash(npm i *)"
+      "Bash(npm i *)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm view *)",
+      "Bash(npx -y ui-ux-pro-max-cli@latest --help)",
+      "Bash(npx -y ui-ux-pro-max-cli@latest init --help)",
+      "Bash(npx -y ui-ux-pro-max-cli@latest init --ai claude --global)"
     ]
   }
 }
